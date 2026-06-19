@@ -1,12 +1,12 @@
 name = "Megalopolis"
 author = "Flimsy Fox"
-version = "3.0.0b"
+version = "3.1.0b"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "17d123c623d7460d8db3b085e2eb70835f185fbf10465d4fddfd2e189473ff7c"
+hash = "6e1252b31a0a314b80aa22acc016b746c6d8acce02aeb9ff1a2618531bca4790"
 
 [versions]
 minecraft = "1.21.1"

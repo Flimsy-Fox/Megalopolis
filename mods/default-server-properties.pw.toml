@@ -1,6 +1,6 @@
 name = "Default Server Properties"
 filename = "default-server-properties-neoforge-21.0.0.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/Fnrzx9Jl/versions/RnxqWPH3/default-server-properties-neoforge-21.0.0.jar"

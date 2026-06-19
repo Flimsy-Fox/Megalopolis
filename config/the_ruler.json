@@ -1,0 +1,9 @@
+{
+    "disableElytraMovementCheck" : true,
+    "doInsomnia" : false,
+    "doMobSpawning" : false,
+    "doTraderSpawning" : false,
+    "tntExplosionDropDecay" : true,
+    "showDeathMessages" : false,
+    "globalSoundEvents" : false
+}

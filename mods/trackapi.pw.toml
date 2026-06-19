@@ -1,0 +1,8 @@
+name = "TrackAPI"
+filename = "TrackAPI-1.21.1-neoforge-1.3.jar"
+side = "both"
+
+[download]
+url = "https://teamopenindustry.cc/maven/trackapi/TrackAPI/1.21.1-neoforge-1.3/TrackAPI-1.21.1-neoforge-1.3.jar"
+hash-format = "sha256"
+hash = "eabe70452cc6bddd121f3cb1b60ab1cadd3cb5164b116513bd7e4ea6daf1d251"

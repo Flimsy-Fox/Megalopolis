@@ -1,0 +1,13 @@
+name = "MTS/Immersive Vehicles - New Cars"
+filename = "New_Cars4.4(1.16-1.21-26.1)cut.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/TYrKkSaT/versions/LcUkeE8s/New_Cars4.4%281.16-1.21-26.1%29cut.jar"
+hash-format = "sha512"
+hash = "51a078b9503a2f75104498dc318a8c536c1bd7d5c883c58cd2e2b39426ac79718580684cd8b24552f7fd106f4376622e05b81af43c4f5c088c2328d7843920f1"
+
+[update]
+[update.modrinth]
+mod-id = "TYrKkSaT"
+version = "LcUkeE8s"

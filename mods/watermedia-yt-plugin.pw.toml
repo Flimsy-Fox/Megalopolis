@@ -1,0 +1,13 @@
+name = "WATERMeDIA: Youtube Extension"
+filename = "watermedia_youtube_extension-3.0.0-beta.5.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/P0w3IrnX/versions/hUKYcxgB/watermedia_youtube_extension-3.0.0-beta.5.jar"
+hash-format = "sha512"
+hash = "d97c5a70336d127875afafe4aed1c60b2303df388d20d4bcd7747a836187e01e6898044f9e53b787ac56bfef9d8b7e10f7c4728c6a43f0b3d38c5f4453cf0d90"
+
+[update]
+[update.modrinth]
+mod-id = "P0w3IrnX"
+version = "hUKYcxgB"

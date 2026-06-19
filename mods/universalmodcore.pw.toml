@@ -1,0 +1,8 @@
+name = "UniversalModCore"
+filename = "UniversalModCore-1.21.1-neoforge-1.2.3-8021c79.jar"
+side = "both"
+
+[download]
+url = "https://teamopenindustry.cc/maven/cam72cam/universalmodcore/UniversalModCore/1.21.1-neoforge-1.2.3-8021c79/UniversalModCore-1.21.1-neoforge-1.2.3-8021c79.jar"
+hash-format = "sha256"
+hash = "e086d05eac0433cae214eb987da6069a3d967ae26ec0c3ceb0caf12faf200143"

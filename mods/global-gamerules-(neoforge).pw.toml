@@ -1,0 +1,13 @@
+name = "Global Gamerules (Neoforge)"
+filename = "globalrules-1.21.1-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qD70hAI0/versions/Ome7yDWP/globalrules-1.21.1-1.0.jar"
+hash-format = "sha512"
+hash = "91e1d64b928b4e71b5e087f28e6032f5243f42d037889af739fd83724445bc409522641dfe04d4957b4345f199147ae6941c5a066f150b08199f3248f2827bc2"
+
+[update]
+[update.modrinth]
+mod-id = "qD70hAI0"
+version = "Ome7yDWP"

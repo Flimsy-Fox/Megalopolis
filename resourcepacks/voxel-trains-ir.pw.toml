@@ -1,0 +1,13 @@
+name = "Voxel Trains IR"
+filename = "Voxel Trains V5 1.16.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/M0223QYQ/versions/h0ePtEGa/Voxel%20Trains%20V5%201.16.zip"
+hash-format = "sha512"
+hash = "399a7e94ee04d2d9f70353dbceb912d43ede415d1d0f5fe6594bcc5cfbd056b4f6a1b0aa4b4ca3ef3c8f37f1d4633af195776f505db70dea8c458303f73a48e4"
+
+[update]
+[update.modrinth]
+mod-id = "M0223QYQ"
+version = "h0ePtEGa"

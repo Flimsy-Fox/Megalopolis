@@ -1,0 +1,13 @@
+name = "German Voxel Railroading for IR"
+filename = "GVR_Official_V2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e2ce0d24e563d14f7e44cc25d12d9a7380d421b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7784296
+project-id = 1164918

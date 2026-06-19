@@ -1,0 +1,13 @@
+name = "Eroding Stone Entities"
+filename = "erodingstoneentities-1.21.1-4.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EwJ8fcSB/versions/guyr8mtH/erodingstoneentities-1.21.1-4.7.jar"
+hash-format = "sha512"
+hash = "7af10aa5e03f88b6ae47a90576af5becc540cba8ffe0ca80d03d5c6382342dfe77112922e357c8902a58dc6860c0071d15d3e201d741bba5f1408e471cdf62ec"
+
+[update]
+[update.modrinth]
+mod-id = "EwJ8fcSB"
+version = "guyr8mtH"

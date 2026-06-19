@@ -1,0 +1,634 @@
+{
+  "general": {
+    "generateOverrideConfigs": {
+      "value": false,
+      "comment": "If true, then crafting and damage override config files, as well as language template files, will be dumped into the config folder at boot.  WARNING: this will overwrite your existing override config files!  Language files must be put into packs to function and will NOT overwrite anything."
+    },
+    "opSignEditingOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to edit signs on servers.  Does not affect client worlds."
+    },
+    "opPickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, only OPs will be able to pick up vehicles with wrenches.  Does not affect client worlds."
+    },
+    "creativePickupVehiclesOnly": {
+      "value": false,
+      "comment": "If true, vehicles can only be picked up in creative mode."
+    },
+    "keyRequiredToStartVehicles": {
+      "value": false,
+      "comment": "If true, vehicles can only be started if the player has the key in their hand."
+    },
+    "noclipVehicles": {
+      "value": false,
+      "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
+    },
+    "chunkloadVehicles": {
+      "value": true,
+      "comment": "If true, vehicles will be chunkloaded when on roads/tracks.  This allows them to travel into unloaded chunks."
+    },
+    "doLegacyLightCompats": {
+      "value": true,
+      "comment": "If true, legacy compatibility code will be performed on all models to make their lights work with newer versions.  This code will significantly slow down boot times due to needing to parse all models on boot, however, packs may not have functional lights without it.  Choose wisely if you want speed or features."
+    },
+    "useHSV": {
+      "value": false,
+      "comment": "If enabled, the MTS dev mode will export color values as HSV instead of hex."
+    },
+    "allPlanesWithNav": {
+      "value": false,
+      "comment": "If true, all planes will have the ability to use beacons for navigation.  This is false to allow pack authors to define new/old planes that have this capability, but can be turned on if you don't care about realism."
+    },
+    "giveManualsOnJoin": {
+      "value": true,
+      "comment": "If true, then whenever a new player joins a world, they will be given a copy of the mod manuals."
+    },
+    "performModCompatFunctions": {
+      "value": true,
+      "comment": "If true, mod compatibility functions will be executed.  Should be true unless you're configuring a modpack and know and have addressed the various incompatibilities."
+    },
+    "forceRenderLastSolid": {
+      "value": false,
+      "comment": "If enabled, MTS will do rendering on the world-last Forge event.  This is not normally something you want, but can be used if some mods make things invisible.  Replaymod being one such example."
+    },
+    "devMode": {
+      "value": false,
+      "comment": "If enabled, MTS will allow access to the dev mode GUI while sitting in vehicles.  The GUI allows editing JSONs in-game without the need to restart."
+    },
+    "roadMaxLength": {
+      "value": 32,
+      "comment": "How long a single segment of road can be, in blocks.  While you can have longer segements, be aware they have more collision boxes and will generate more lag when broken or interacted with, and may not render if outside the chunk they are in.  Must be a whole number."
+    },
+    "aircraftSpeedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to aircraft movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "carSpeedFactor": {
+      "value": 0.35,
+      "comment": "Factor to apply to car movement.  1 is the realistic value, but this makes vehicles move too fast for Minecraft. Adjust with caution."
+    },
+    "fuelUsageFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines use fuel.  Change this if you think engines use fuel too fast or slow.  Setting it to 0 will disable fuel and allow engines to run without it."
+    },
+    "engineHoursFactor": {
+      "value": 1.0,
+      "comment": "Factor times which engines hours accumulate.  Change this if you want to adjust how fast engines wear out."
+    },
+    "climbSpeed": {
+      "value": 0.125,
+      "comment": "How far a vehicle will 'climb' blocks every tick when the wheels go into the ground.  Higher values make vehicles climb blocks quicker at the cost of smooth movement."
+    },
+    "gravityFactor": {
+      "value": 1.0,
+      "comment": "Factor for gravitational forces applied to vehicles.  Can be adjusted if you think cars are too 'floaty'.  Does not affect aircraft."
+    },
+    "maxFlightHeight": {
+      "value": 0.0,
+      "comment": "How high planes can fly.  Setting this to 0 (default) will allow planes to fly as high as their natural physics allows.  Useful if you want to cap vertical height for some reason."
+    },
+    "engineSpeedTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how RPM affects engine temp.  Higher values will make engines heat up quicker at higher RPMs."
+    },
+    "engineBiomeTempFactor": {
+      "value": 1.0,
+      "comment": "Factor for how biome temp affects engine temp.  Higher values will make engines heat up quicker in hotter biomes."
+    },
+    "rfToElectricityFactor": {
+      "value": 0.02,
+      "comment": "Factor for converting RF to internal electicity for vehicles.  Default value is 1/100, but can be adjusted."
+    },
+    "vehicleDeathDespawnTime": {
+      "value": 0.0,
+      "comment": "Time (in seconds) between when vehicles reach 0 health and they de-spawn.  Normally 0, which means they never de-spawn."
+    },
+    "seaLevel": {
+      "value": 63,
+      "comment": "The Y-Level that will be used to base altitude off of. Will also be factored in for engine performance calculations. Change only if you know what you're doing/ why this matters to engines/flying."
+    },
+    "defaultVehicleRepairMaterials": {
+      "value": [],
+      "comment": "List of items that can be used to repair vehicles by default, if no repair recipe is set in the vehicle's JSON."
+    },
+    "defaultPartRepairMaterials": {
+      "value": [],
+      "comment": "List of items that can be used to repair part by default, if no repair recipe is set in the part's JSON."
+    },
+    "engineDimensionBlacklist": {
+      "value": [],
+      "comment": "Blacklist of dimension names where engines will be prevented from being started.  Can be used to disable vehicles in specific dimensions.  Think Galacticraft, where you don't want folks flying planes on the moon."
+    },
+    "engineDimensionWhitelist": {
+      "value": [],
+      "comment": "Whitelist of dimension names where engines will only be alowed to work.  Overrides the blacklist if this exists."
+    },
+    "packVehicleScales": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "blockyragecivil": 1.0,
+        "blockyrageheavy": 1.0,
+        "acmebase": 1.0,
+        "acmearmory": 1.0,
+        "blockyragecraft": 1.0,
+        "blockyrageaftermarket": 1.0,
+        "mts": 1.0,
+        "acmecivil": 1.0,
+        "new_cars": 1.0,
+        "cmaoldmilitarytransport": 1.0,
+        "repair": 1.0,
+        "iv_tcp_v3_parts": 1.0,
+        "iv_tcp_v3_service": 1.0,
+        "saltyfishairline": 1.0,
+        "cmaaviationtransport": 1.0,
+        "cmamilitarytransport": 1.0,
+        "cmactruckpartsfortransport": 1.0,
+        "iv_tpp_v4_tests": 1.0,
+        "iv_tcp_v3_civil": 1.0,
+        "cmackagriculturetransport": 1.0,
+        "iv_tpp": 1.0,
+        "iv_tcp_v3_txs": 1.0,
+        "cmacitizenstransport": 1.0,
+        "iv_tcp_v3_utility": 1.0,
+        "cmapartsfortransport": 1.0,
+        "cmapdecors": 1.0
+      },
+      "comment": "Scale of all vehicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
+    },
+    "packSpeedFactors": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "blockyragecivil": 1.0,
+        "blockyrageheavy": 1.0,
+        "acmebase": 1.0,
+        "acmearmory": 1.0,
+        "blockyragecraft": 1.0,
+        "blockyrageaftermarket": 1.0,
+        "mts": 1.0,
+        "acmecivil": 1.0,
+        "new_cars": 1.0,
+        "cmaoldmilitarytransport": 1.0,
+        "repair": 1.0,
+        "iv_tcp_v3_parts": 1.0,
+        "iv_tcp_v3_service": 1.0,
+        "saltyfishairline": 1.0,
+        "cmaaviationtransport": 1.0,
+        "cmamilitarytransport": 1.0,
+        "cmactruckpartsfortransport": 1.0,
+        "iv_tpp_v4_tests": 1.0,
+        "iv_tcp_v3_civil": 1.0,
+        "cmackagriculturetransport": 1.0,
+        "iv_tpp": 1.0,
+        "iv_tcp_v3_txs": 1.0,
+        "cmacitizenstransport": 1.0,
+        "iv_tcp_v3_utility": 1.0,
+        "cmapartsfortransport": 1.0,
+        "cmapdecors": 1.0
+      },
+      "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
+    },
+    "itemWeights": {
+      "comment1": "The following section is used for calculating item weights.  Any item that contains the text bits will have its weight multiplied by the following factor.",
+      "comment2": "This mass factors into vehicle performance, with particular emphasis on vehicle payloads.  Some defaults are presented here, but you can add/remove to your liking.",
+      "comment3": "Note that the part of the name searched is the item's registry name, NOT the in-game display name.  This is similar to what is in the /give command.",
+      "weights": {
+        "gold": 4.0,
+        "diamond": 4.0,
+        "ore": 2.5,
+        "iron": 4.0,
+        "coal": 2.0,
+        "stone": 1.5
+      }
+    },
+    "joinedPlayers": {
+      "value": [
+        "5a454007-5424-4c25-a61c-30f0a45b118e",
+        "6c491e54-c289-329e-85b5-281ba541ffaf",
+        "03a16a74-1b20-3cca-b708-994111e02d47"
+      ],
+      "comment": "Listing of players that have joined this world.  Players will be given the manual on their first join."
+    }
+  },
+  "damage": {
+    "bulletBlockBreaking": {
+      "value": true,
+      "comment": "Whether or not bullets/bombs can break blocks when they hit them.  This will also disable explosive block breakage (though not explosions themselves) and prevent incendiary bullets from setting blocks on fire."
+    },
+    "bulletExplosions": {
+      "value": true,
+      "comment": "Whether or not bullets/bombs will blow up.  This does not disable block breakage, but it will pretty much nerf all block mass-destruction weapons."
+    },
+    "vehicleBlockBreaking": {
+      "value": true,
+      "comment": "Whether or not vehicles can break blocks when they run into them or blow up.  If false, vehicles will simply stop when they hit blocks."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
+    },
+    "vehicleExplosions": {
+      "value": true,
+      "comment": "Whether or not vehicles explode when crashed or shot down.  If this is false, vehicles will simply poof when they crash."
+    },
+    "creativePlayerDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players.  Not sure why you'd want this, but it's here."
+    },
+    "wheelBreakage": {
+      "value": true,
+      "comment": "Whether or not wheels can be broken (go flat)."
+    },
+    "wheelDamageIgnoreVelocity": {
+      "value": false,
+      "comment": "Whether or not velocity is ignored when calculating wheel damage."
+    },
+    "allowExternalDamage": {
+      "value": false,
+      "comment": "Whether or not non-IV things can damage vehicles.  This is normally false, as external damage is a hassle for most people, but can be true if you want other mod's guns to be able to attack vehicles in addition to IV's."
+    },
+    "propellerDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a propeller."
+    },
+    "jetDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by a jet engine."
+    },
+    "wheelDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by wheels on vehicles."
+    },
+    "crashDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by crashes."
+    },
+    "bulletDamageFactor": {
+      "value": 1.0,
+      "comment": "Factor for damage caused by bullets on vehicles."
+    },
+    "wheelDamageMinimumVelocity": {
+      "value": 0.2,
+      "comment": "Minimum velocity (blocks/second) which vehicles must be going to damage entities with their wheels."
+    },
+    "packBulletDamageFactors": {
+      "value": {
+        "mtsofficialpack": 1.0,
+        "blockyragecivil": 1.0,
+        "blockyrageheavy": 1.0,
+        "acmebase": 1.0,
+        "acmearmory": 1.0,
+        "blockyragecraft": 1.0,
+        "blockyrageaftermarket": 1.0,
+        "mts": 1.0,
+        "acmecivil": 1.0,
+        "new_cars": 1.0,
+        "cmaoldmilitarytransport": 1.0,
+        "repair": 1.0,
+        "iv_tcp_v3_parts": 1.0,
+        "iv_tcp_v3_service": 1.0,
+        "saltyfishairline": 1.0,
+        "cmaaviationtransport": 1.0,
+        "cmamilitarytransport": 1.0,
+        "cmactruckpartsfortransport": 1.0,
+        "iv_tpp_v4_tests": 1.0,
+        "iv_tcp_v3_civil": 1.0,
+        "cmackagriculturetransport": 1.0,
+        "iv_tpp": 1.0,
+        "iv_tcp_v3_txs": 1.0,
+        "cmacitizenstransport": 1.0,
+        "iv_tcp_v3_utility": 1.0,
+        "cmapartsfortransport": 1.0,
+        "cmapdecors": 1.0
+      },
+      "comment": "A mapping of pack-speciifc bullet damage factors.  These values will apply to all bullets in a pack when they hit something, be it a vehicle or entity."
+    }
+  },
+  "fuel": {
+    "comment1": "The following section is used for fuel configs for engines.  Each entry here is a single fuel type for engines.",
+    "comment2": "Inside each entry exist values for the potency of the fluids that can be considered to be that fuel type.",
+    "comment3": "You can make engines take different types of fluids for their fuels by editing these values.  See the in-game handbook for more information.",
+    "comment4": "If you are having troubles getting the name for a particular fluid, run the game with the mods you want and check the 'lastLoadedFluids' list.  This contains all the fluids that were present during the last run of the game.",
+    "comment5": "The first entry in the list is the registered fluid name, while the second entry will be the displayed name.  Only use the first name, as the second name changes based on game language settings.",
+    "fuels": {
+      "diesel": {
+        "creosote": 0.7,
+        "diesel": 1.0,
+        "oil": 0.5,
+        "biodiesel": 0.8
+      },
+      "furnace": {
+        "lava": 1.0
+      },
+      "electric": {
+        "fluidhydrogen": 1.0
+      },
+      "brewing_stand": {
+        "lava": 1.0
+      },
+      "avgas": {
+        "gasoline": 1.0
+      },
+      "electricity": {
+        "fluidhydrogen": 1.0
+      },
+      "gasoline": {
+        "gasoline": 1.0,
+        "ethanol": 0.85
+      },
+      "water": {
+        "water": 1.0
+      },
+      "biodiesel": {
+        "lava": 1.0
+      }
+    },
+    "lastLoadedFluids": {
+      "fluidimpuremineralgold": "fluid.electrodynamics.fluidimpuremineralgold",
+      "puregadoliniumnitrate": "fluid.chemicalscience.puregadoliniumnitrate",
+      "dibutylphosphate": "fluid.chemicalscience.dibutylphosphate",
+      "fluidcrudeminerallithium": "fluid.electrodynamics.fluidcrudeminerallithium",
+      "propane": "fluid.chemicalscience.propane",
+      "bromine": "fluid.chemicalscience.bromine",
+      "fluidsulfatelead": "fluid.electrodynamics.fluidsulfatelead",
+      "fluidcrudemineralnetherite": "fluid.electrodynamics.fluidcrudemineralnetherite",
+      "xenon": "fluid.chemicalscience.xenon",
+      "carbonmonoxide": "fluid.chemicalscience.carbonmonoxide",
+      "impurelpg": "fluid.chemicalscience.impurepetroleumgas",
+      "trichlorosilane": "fluid.chemicalscience.trichlorosilane",
+      "fluidroyalmineralpalladium": "fluid.chemicalscience.fluidroyalmineralpalladium",
+      "fluidpuremineralsilver": "fluid.electrodynamics.fluidpuremineralsilver",
+      "perchloricacid": "fluid.chemicalscience.perchloricacid",
+      "ethanol_flowing": "fluid_type.immersiveengineering.ethanol",
+      "fluidroyalmineralgold": "fluid.electrodynamics.fluidroyalmineralgold",
+      "acetaldehyde": "fluid_type.immersiveengineering.acetaldehyde",
+      "puresamariumnitrate": "fluid.chemicalscience.puresamariumnitrate",
+      "fluidroyalminerallithium": "fluid.electrodynamics.fluidroyalminerallithium",
+      "oxyacetylene": "fluid.chemicalscience.oxyacetylene",
+      "calciumhydroxide": "fluid.chemicalscience.calciumhydroxide",
+      "fluidpuremineralnetherite": "fluid.electrodynamics.fluidpuremineralnetherite",
+      "napalm": "fluid_type.immersivepetroleum.napalm",
+      "arsenictrichloride": "fluid.chemicalscience.arsenictrichloride",
+      "milk": "Milk",
+      "fluidpureminerallead": "fluid.electrodynamics.fluidpureminerallead",
+      "flowing_lava": "Lava",
+      "concrete_flowing": "fluid_type.immersiveengineering.concrete",
+      "diisopropylamine": "fluid.chemicalscience.diisopropylamine",
+      "pureceriumnitrate": "fluid.chemicalscience.pureceriumnitrate",
+      "pureerbiumnitrate": "fluid.chemicalscience.pureerbiumnitrate",
+      "high_power_biodiesel": "fluid_type.immersiveengineering.high_power_biodiesel",
+      "fluidcrudemineralgold": "fluid.electrodynamics.fluidcrudemineralgold",
+      "fluidimpuremineralcopper": "fluid.electrodynamics.fluidimpuremineralcopper",
+      "fluidcrudemineralcopper": "fluid.electrodynamics.fluidcrudemineralcopper",
+      "fluidcrudemineraltin": "fluid.electrodynamics.fluidcrudemineraltin",
+      "tetrachloromethane": "fluid.chemicalscience.tetrachloromethane",
+      "ethylhexanal": "fluid.chemicalscience.ethylhexanal",
+      "kerosene_flowing": "fluid_type.immersivepetroleum.kerosene",
+      "fluidpuremineralaluminum": "fluid.electrodynamics.fluidpuremineralaluminum",
+      "fluidimpuremineralchromium": "fluid.electrodynamics.fluidimpuremineralchromium",
+      "impureuraniumsolution": "fluid.chemicalscience.impureuraniumsolution",
+      "butane": "fluid.chemicalscience.butane",
+      "fluidroyalmineralaluminum": "fluid.electrodynamics.fluidroyalmineralaluminum",
+      "fluidhydrofluoricacid": "fluid.electrodynamics.fluidhydrofluoricacid",
+      "fluidcrudemineraltitanium": "fluid.electrodynamics.fluidcrudemineraltitanium",
+      "vinylchloride": "fluid.chemicalscience.vinylchloride",
+      "pureytterbiumnitrate": "fluid.chemicalscience.pureytterbiumnitrate",
+      "fluidsulfatesilver": "fluid.electrodynamics.fluidsulfatesilver",
+      "fluiddirtymineralaluminum": "fluid.electrodynamics.fluiddirtymineralaluminum",
+      "uraniumhexafluoride": "fluid.nuclearscience.uraniumhexafluoride",
+      "fluidpuremineraltin": "fluid.electrodynamics.fluidpuremineraltin",
+      "helium": "fluid.chemicalscience.helium",
+      "impureterbiumnitrate": "fluid.chemicalscience.impureterbiumnitrate",
+      "diesel_sulfur": "fluid_type.immersivepetroleum.diesel_sulfur",
+      "redstone_acid_flowing": "fluid_type.immersiveengineering.redstone_acid",
+      "impuredysprosiumnitrate": "fluid.chemicalscience.impuredysprosiumnitrate",
+      "thf": "fluid.chemicalscience.thf",
+      "krypton": "fluid.chemicalscience.krypton",
+      "plantoil_flowing": "fluid_type.immersiveengineering.plantoil",
+      "pureholmiumnitrate": "fluid.chemicalscience.pureholmiumnitrate",
+      "crudeoil": "fluid_type.immersivepetroleum.crudeoil",
+      "bromobutane": "fluid.chemicalscience.bromobutane",
+      "diesel_flowing": "fluid_type.immersivepetroleum.diesel",
+      "alkalinecassiteritesolution": "fluid.chemicalscience.alkalinecassiteritesolution",
+      "fluidimpureminerallithium": "fluid.electrodynamics.fluidimpureminerallithium",
+      "fluidroyalmineralcopper": "fluid.electrodynamics.fluidroyalmineralcopper",
+      "hydrogencyanide": "fluid.chemicalscience.hydrogencyanide",
+      "purethuliumnitrate": "fluid.chemicalscience.purethuliumnitrate",
+      "ethylhexylbromide": "fluid.chemicalscience.ethylhexylbromide",
+      "cyanogen": "fluid.chemicalscience.cyanogen",
+      "ethylene": "fluid.chemicalscience.ethylene",
+      "empty": "Air",
+      "butanol": "fluid.chemicalscience.butanol",
+      "fluidimpuremineraltin": "fluid.electrodynamics.fluidimpuremineraltin",
+      "butyllithium": "fluid.chemicalscience.butyllithium",
+      "escherichia_coli": "fluid.chemicalscience.escherichia_coli",
+      "acetylene": "fluid.chemicalscience.acetylene",
+      "titaniumchloride": "fluid.chemicalscience.titaniumchloride",
+      "fluidhydrochloricacid": "fluid.electrodynamics.fluidhydrochloricacid",
+      "fluidimpuremineraliron": "fluid.electrodynamics.fluidimpuremineraliron",
+      "impurediesel": "fluid.chemicalscience.impurediesel",
+      "fluidcrudemineralvanadium": "fluid.electrodynamics.fluidcrudemineralvanadium",
+      "palladiumphosphate": "fluid.chemicalscience.palladiumphosphate",
+      "fluidpuremineralchromium": "fluid.electrodynamics.fluidpuremineralchromium",
+      "impurenaphta": "fluid.chemicalscience.impurenaphta",
+      "fluidpureminerallithium": "fluid.electrodynamics.fluidpureminerallithium",
+      "impurelanthanumnitrate": "fluid.chemicalscience.impurelanthanumnitrate",
+      "methane": "fluid.chemicalscience.methane",
+      "potassiumchloride": "fluid.chemicalscience.potassiumchloride",
+      "chromylchloride": "fluid.chemicalscience.chromylchloride",
+      "fluiddirtymineraltitanium": "fluid.electrodynamics.fluiddirtymineraltitanium",
+      "malonicacid": "fluid.chemicalscience.malonicacid",
+      "pureeuropiumnitrate": "fluid.chemicalscience.pureeuropiumnitrate",
+      "radon": "fluid.chemicalscience.radon",
+      "fluiddirtymineralsilver": "fluid.electrodynamics.fluiddirtymineralsilver",
+      "fluidsulfatemolybdenum": "fluid.electrodynamics.fluidsulfatemolybdenum",
+      "fluidcrudemineralsilver": "fluid.electrodynamics.fluidcrudemineralsilver",
+      "trifluoroaceticacid": "fluid.chemicalscience.trifluoroaceticacid",
+      "gasoline": "fluid_type.immersivepetroleum.gasoline",
+      "creosote_flowing": "fluid_type.immersiveengineering.creosote",
+      "fluidpuremineralmolybdenum": "fluid.electrodynamics.fluidpuremineralmolybdenum",
+      "puredysprosiumnitrate": "fluid.chemicalscience.puredysprosiumnitrate",
+      "xylene": "fluid.chemicalscience.xylene",
+      "lava": "Lava",
+      "fluiddirtymineralmolybdenum": "fluid.electrodynamics.fluiddirtymineralmolybdenum",
+      "fluiddirtymineralchromium": "fluid.electrodynamics.fluiddirtymineralchromium",
+      "pbdby_chlorobenzene": "fluid.chemicalscience.pbdby_chlorobenzene",
+      "diesel_sulfur_flowing": "fluid_type.immersivepetroleum.diesel_sulfur",
+      "herbicide": "fluid_type.immersiveengineering.herbicide",
+      "fluidhydraulic": "fluid.electrodynamics.fluidhydraulic",
+      "fluidimpuremineralvanadium": "fluid.electrodynamics.fluidimpuremineralvanadium",
+      "impuresamariumnitrate": "fluid.chemicalscience.impuresamariumnitrate",
+      "fluidroyalmineralchromium": "fluid.electrodynamics.fluidroyalmineralchromium",
+      "fluorine": "fluid.chemicalscience.fluorine",
+      "potion": "Uncraftable Potion",
+      "lubricant_flowing": "fluid_type.immersivepetroleum.lubricant",
+      "fluidroyalmineraltin": "fluid.electrodynamics.fluidroyalmineraltin",
+      "xp_flowing": "fluid_type.sophisticatedcore.experience",
+      "plantoil": "fluid_type.immersiveengineering.plantoil",
+      "fluidpuremineralcopper": "fluid.electrodynamics.fluidpuremineralcopper",
+      "ferricchloride": "fluid.chemicalscience.ferricchloride",
+      "chlorine": "fluid.chemicalscience.chlorine",
+      "maleicacid": "fluid.chemicalscience.maleicacid",
+      "boricacid": "fluid.chemicalscience.boricacid",
+      "ethylhexanol": "fluid.chemicalscience.ethylhexanol",
+      "fluiddirtymineraltin": "fluid.electrodynamics.fluiddirtymineraltin",
+      "dmf": "fluid.chemicalscience.dmf",
+      "toluene": "fluid.chemicalscience.toluene",
+      "pureneodymiumnitrate": "fluid.chemicalscience.pureneodymiumnitrate",
+      "impuregadoliniumnitrate": "fluid.chemicalscience.impuregadoliniumnitrate",
+      "fluidroyalmineralplatinum": "fluid.chemicalscience.fluidroyalmineralplatinum",
+      "fluidoxygen": "fluid.electrodynamics.fluidoxygen",
+      "technetiumsolution": "fluid.chemicalscience.technetiumsolution",
+      "fluidimpureminerallead": "fluid.electrodynamics.fluidimpureminerallead",
+      "fluidimpuremineralsilver": "fluid.electrodynamics.fluidimpuremineralsilver",
+      "fluidsulfategold": "fluid.electrodynamics.fluidsulfategold",
+      "hydrobromicacid": "fluid.chemicalscience.hydrobromicacid",
+      "fluidroyalminerallead": "fluid.electrodynamics.fluidroyalminerallead",
+      "ironnitrate": "fluid.chemicalscience.ironnitrate",
+      "petroleum_gas": "fluid_type.immersivepetroleum.petroleum_gas",
+      "pbdbtf_toluene": "fluid.chemicalscience.pbdbtf_toluene",
+      "purepraseodymiumnitrate": "fluid.chemicalscience.purepraseodymiumnitrate",
+      "biodiesel": "fluid_type.immersiveengineering.biodiesel",
+      "fluiddirtymineraliron": "fluid.electrodynamics.fluiddirtymineraliron",
+      "decontaminationfoam": "fluid.nuclearscience.decontaminationfoam",
+      "gasoline_flowing": "fluid_type.immersivepetroleum.gasoline",
+      "triethylphosphite": "fluid.chemicalscience.triethylphosphite",
+      "fluidammonia": "fluid.electrodynamics.fluidammonia",
+      "thiophene": "fluid.chemicalscience.thiophene",
+      "heavyoil": "fluid.chemicalscience.heavyoil",
+      "high_power_biodiesel_flowing": "fluid_type.immersiveengineering.high_power_biodiesel",
+      "fluidimpuremineralaluminum": "fluid.electrodynamics.fluidimpuremineralaluminum",
+      "pyridine": "fluid.chemicalscience.pyridine",
+      "fluidsulfatecopper": "fluid.electrodynamics.fluidsulfatecopper",
+      "aceticacid": "fluid.chemicalscience.aceticacid",
+      "fluidpuremineralgold": "fluid.electrodynamics.fluidpuremineralgold",
+      "ethylbromoacetate": "fluid.chemicalscience.ethylbromoacetate",
+      "benzonitrile": "fluid.chemicalscience.benzonitrile",
+      "trinitrotoluene": "fluid.chemicalscience.trinitrotoluene",
+      "impurepraseodymiumnitrate": "fluid.chemicalscience.impurepraseodymiumnitrate",
+      "succinicacid": "fluid.chemicalscience.succinicacid",
+      "aniline": "fluid.chemicalscience.aniline",
+      "herbicide_flowing": "fluid_type.immersiveengineering.herbicide",
+      "fluidcrudemineralaluminum": "fluid.electrodynamics.fluidcrudemineralaluminum",
+      "fluidaquaregia": "fluid.electrodynamics.fluidaquaregia",
+      "fluiddirtyminerallithium": "fluid.electrodynamics.fluiddirtyminerallithium",
+      "fluidroyalmineraltitanium": "fluid.electrodynamics.fluidroyalmineraltitanium",
+      "impureeuropiumnitrate": "fluid.chemicalscience.impureeuropiumnitrate",
+      "fluidcrudeminerallead": "fluid.electrodynamics.fluidcrudeminerallead",
+      "bromomethane": "fluid.chemicalscience.bromomethane",
+      "diesel": "fluid_type.immersivepetroleum.diesel",
+      "napalm_flowing": "fluid_type.immersivepetroleum.napalm",
+      "butanal": "fluid.chemicalscience.butanal",
+      "fluidsulfatetin": "fluid.electrodynamics.fluidsulfatetin",
+      "fluiddirtymineralgold": "fluid.electrodynamics.fluiddirtymineralgold",
+      "dibromothiophene": "fluid.chemicalscience.dibromothiophene",
+      "fluidroyalmineralsilver": "fluid.electrodynamics.fluidroyalmineralsilver",
+      "oxycyanogen": "fluid.chemicalscience.oxycyanogen",
+      "clostridium": "fluid.chemicalscience.clostridium",
+      "naphtha_flowing": "fluid_type.immersivepetroleum.naphtha",
+      "ethanol": "fluid_type.immersiveengineering.ethanol",
+      "fissionwastesolution": "fluid.chemicalscience.fissionwastesolution",
+      "xp_still": "fluid_type.sophisticatedcore.experience",
+      "fluidethanol": "fluid.electrodynamics.fluidethanol",
+      "chlorotrimethylsilane": "fluid.chemicalscience.chlorotrimethylsilane",
+      "fluidpuremineraltitanium": "fluid.electrodynamics.fluidpuremineraltitanium",
+      "methanol": "fluid.chemicalscience.methanol",
+      "dimethylamine": "fluid.chemicalscience.dimethylamine",
+      "triethylphosphate": "fluid.chemicalscience.triethylphosphate",
+      "styrene": "fluid.chemicalscience.styrene",
+      "impureytterbiumnitrate": "fluid.chemicalscience.impureytterbiumnitrate",
+      "propylene": "fluid.chemicalscience.propylene",
+      "lpg": "fluid.chemicalscience.lpg",
+      "dppdtt_chlorobenzene": "fluid.chemicalscience.dppdtt_chlorobenzene",
+      "biodiesel_flowing": "fluid_type.immersiveengineering.biodiesel",
+      "purelanthanumnitrate": "fluid.chemicalscience.purelanthanumnitrate",
+      "impureholmiumnitrate": "fluid.chemicalscience.impureholmiumnitrate",
+      "phenolic_resin_flowing": "fluid_type.immersiveengineering.phenolic_resin",
+      "naphtha": "fluid_type.immersivepetroleum.naphtha",
+      "fluidimpuremineraltitanium": "fluid.electrodynamics.fluidimpuremineraltitanium",
+      "fluidclay": "fluid.electrodynamics.fluidclay",
+      "fluidroyalmineralmolybdenum": "fluid.electrodynamics.fluidroyalmineralmolybdenum",
+      "impurepromethiumnitrate": "fluid.chemicalscience.impurepromethiumnitrate",
+      "fluidsulfateiron": "fluid.electrodynamics.fluidsulfateiron",
+      "fluidcrudemineralchromium": "fluid.electrodynamics.fluidcrudemineralchromium",
+      "pureluteciumnitrate": "fluid.chemicalscience.pureluteciumnitrate",
+      "pureterbiumnitrate": "fluid.chemicalscience.pureterbiumnitrate",
+      "chloroaceticacid": "fluid.chemicalscience.chloroaceticacid",
+      "impureluteciumnitrate": "fluid.chemicalscience.impureluteciumnitrate",
+      "hydrogensulfide": "fluid.chemicalscience.hydrogensulfide",
+      "acetaldehyde_flowing": "fluid_type.immersiveengineering.acetaldehyde",
+      "acetone": "fluid.chemicalscience.acetone",
+      "fluidsulfatenetherite": "fluid.electrodynamics.fluidsulfatenetherite",
+      "fuel": "fluid.chemicalscience.fuel",
+      "terephthalicacid": "fluid.chemicalscience.terephthalicacid",
+      "bromothiophene": "fluid.chemicalscience.bromothiophene",
+      "impureheavyoil": "fluid.chemicalscience.impureheavyoil",
+      "bromoaceticacid": "fluid.chemicalscience.bromoaceticacid",
+      "impureceriumnitrate": "fluid.chemicalscience.impureceriumnitrate",
+      "sodiumhydroxide": "fluid.chemicalscience.sodiumhydroxide",
+      "crudeoil_flowing": "fluid_type.immersivepetroleum.crudeoil",
+      "benzol": "fluid_type.immersivepetroleum.benzol",
+      "impureerbiumnitrate": "fluid.chemicalscience.impureerbiumnitrate",
+      "ammoniumsuccinate": "fluid.chemicalscience.ammoniumsuccinate",
+      "organiclanthanidesolution": "fluid.chemicalscience.organiclanthanidesolution",
+      "coppernitrate": "fluid.chemicalscience.coppernitrate",
+      "acetonitrile": "fluid.chemicalscience.acetonitrile",
+      "purepromethiumnitrate": "fluid.chemicalscience.purepromethiumnitrate",
+      "chlorobenzene": "fluid.chemicalscience.chlorobenzene",
+      "formaldehyde": "fluid.chemicalscience.formaldehyde",
+      "fluiddirtymineralvanadium": "fluid.electrodynamics.fluiddirtymineralvanadium",
+      "phosphoricacid": "fluid.chemicalscience.phosphoricacid",
+      "fluidimpuremineralnetherite": "fluid.electrodynamics.fluidimpuremineralnetherite",
+      "oxalylchloride": "fluid.chemicalscience.oxalylchloride",
+      "fluidsulfuricacid": "fluid.electrodynamics.fluidsulfuricacid",
+      "fluiddirtymineralnetherite": "fluid.electrodynamics.fluiddirtymineralnetherite",
+      "water": "Water",
+      "fluidroyalmineraliron": "fluid.electrodynamics.fluidroyalmineraliron",
+      "benzol_flowing": "fluid_type.immersivepetroleum.benzol",
+      "benzaldehyde": "fluid.chemicalscience.benzaldehyde",
+      "flowing_water": "Water",
+      "plutoniumnitrate": "fluid.chemicalscience.plutoniumnitrate",
+      "fluidlubricant": "fluid.dynamicelectricity.fluidlubricant",
+      "fluiddirtyminerallead": "fluid.electrodynamics.fluiddirtyminerallead",
+      "sodiumperchlorate": "fluid.chemicalscience.sodiumperchlorate",
+      "impurethuliumnitrate": "fluid.chemicalscience.impurethuliumnitrate",
+      "fluidroyalmineralnetherite": "fluid.electrodynamics.fluidroyalmineralnetherite",
+      "redstone_acid": "fluid_type.immersiveengineering.redstone_acid",
+      "fluidcrudemineraliron": "fluid.electrodynamics.fluidcrudemineraliron",
+      "concrete": "fluid_type.immersiveengineering.concrete",
+      "fluidroyalmineralvanadium": "fluid.electrodynamics.fluidroyalmineralvanadium",
+      "mercury": "fluid.chemicalscience.mercury",
+      "tributylphosphate": "fluid.chemicalscience.tributylphosphate",
+      "sulfatemagnesium": "fluid.chemicalscience.sulfatemagnesium",
+      "fluiddirtymineralcopper": "fluid.electrodynamics.fluiddirtymineralcopper",
+      "fluidnitricacid": "fluid.electrodynamics.fluidnitricacid",
+      "phenolic_resin": "fluid_type.immersiveengineering.phenolic_resin",
+      "fluidhydrogen": "fluid.electrodynamics.fluidhydrogen",
+      "fluidpuremineraliron": "fluid.electrodynamics.fluidpuremineraliron",
+      "naphta": "fluid.chemicalscience.naphta",
+      "lumisene": "block.supplementaries.lumisene",
+      "organicuraniumsolution": "fluid.chemicalscience.organicuraniumsolution",
+      "cyanogenchloride": "fluid.chemicalscience.cyanogenchloride",
+      "fluidpolyethylene": "fluid.electrodynamics.fluidpolyethylene",
+      "creosote": "fluid_type.immersiveengineering.creosote",
+      "uraniumnitrate": "fluid.chemicalscience.uraniumnitrate",
+      "flowing_milk": "Milk",
+      "fluidimpuremineralmolybdenum": "fluid.electrodynamics.fluidimpuremineralmolybdenum",
+      "acidcassiteritesolution": "fluid.chemicalscience.acidcassiteritesolution",
+      "fluidcrudemineralmolybdenum": "fluid.electrodynamics.fluidcrudemineralmolybdenum",
+      "neon": "fluid.chemicalscience.neon",
+      "ethylbenzene": "fluid.chemicalscience.ethylbenzene",
+      "clearfissionwastesolution": "fluid.chemicalscience.clearfissionwastesolution",
+      "kerosene": "fluid_type.immersivepetroleum.kerosene",
+      "iodinesolution": "fluid.nuclearscience.iodinesolution",
+      "benzene": "fluid.chemicalscience.benzene",
+      "fluidsulfatelithium": "fluid.electrodynamics.fluidsulfatelithium",
+      "fluidpuremineralvanadium": "fluid.electrodynamics.fluidpuremineralvanadium",
+      "petroleum_gas_flowing": "fluid_type.immersivepetroleum.petroleum_gas",
+      "fluidsulfatevanadium": "fluid.electrodynamics.fluidsulfatevanadium",
+      "lubricant": "fluid_type.immersivepetroleum.lubricant",
+      "pbdbtf_methanol": "fluid.chemicalscience.pbdbtf_methanol",
+      "phosphorusoxychloride": "fluid.chemicalscience.phosphorusoxychloride"
+    }
+  }
+}

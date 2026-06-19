@@ -1,0 +1,13 @@
+name = "Immersive Autopilot"
+filename = "immersive_autopilot-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t3897shd/versions/oe6v6ZhQ/immersive_autopilot-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "628628aad367aa08cfe61a7ad06a0f3731a651441f30ed8f42242b40cf67331c403f5c7ed230fff6bbbe41d9fbab24004f6a9edbf0a868572bff69b23852ef5a"
+
+[update]
+[update.modrinth]
+mod-id = "t3897shd"
+version = "oe6v6ZhQ"

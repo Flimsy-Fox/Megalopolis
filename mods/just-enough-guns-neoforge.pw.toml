@@ -1,0 +1,13 @@
+name = "Just Enough Guns New"
+filename = "jegn-1.7.0-pre3+neoforge1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dxTydNDF/versions/3n9fWbup/jegn-1.7.0-pre3%2Bneoforge1.21.1.jar"
+hash-format = "sha512"
+hash = "286c2a68e7c49f927acac54a10df807298e1732663a4f0cd5dbba6fee23d3de879e021d55bb62feef0c636cabb7834c7c2bbe8c61bbea7d557ce585ac9b9cfe4"
+
+[update]
+[update.modrinth]
+mod-id = "dxTydNDF"
+version = "3n9fWbup"

@@ -1,0 +1,13 @@
+name = "Hearths"
+filename = "Hearths v1.0.5.dp.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XCIMrYn0/versions/qtY3MDWq/Hearths%20v1.0.5.dp.zip"
+hash-format = "sha512"
+hash = "ed8fda42987960ed5b4a6661b48be6aa590113183150f061f5044d143c0a7386bfd3b2ba264a34ca604a29d383d649d07e0881578d1e54393b35949b70d07740"
+
+[update]
+[update.modrinth]
+mod-id = "XCIMrYn0"
+version = "qtY3MDWq"

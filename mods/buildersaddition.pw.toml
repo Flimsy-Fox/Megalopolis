@@ -1,0 +1,13 @@
+name = "Builders Crafts & Additions"
+filename = "buildersaddition2-neoforge-1.21.1-2.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jA6GVA7Y/versions/d8WQr3oR/buildersaddition2-neoforge-1.21.1-2.1.2.jar"
+hash-format = "sha512"
+hash = "c18b5123f16f3f9c9d4d7ae18097b13c8bd1dd923f881e84d9aa4b4aac2c62cedc14f007a646c68fb276dc1e9627dd9fff9852ada59c5fb063afd0761bc879a8"
+
+[update]
+[update.modrinth]
+mod-id = "jA6GVA7Y"
+version = "d8WQr3oR"

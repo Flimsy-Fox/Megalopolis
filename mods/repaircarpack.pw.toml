@@ -1,0 +1,13 @@
+name = "Repair Car Pack [Immersive Vehicles/IV/MTS]"
+filename = "Repair_LancerEvoVIII_Pack-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LNXUISCr/versions/QFvVmjuZ/Repair_LancerEvoVIII_Pack-1.21.1.jar"
+hash-format = "sha512"
+hash = "c6c28d0f59f1fbb538a0d74f1376df78cfcf6f2d9cb851d65a293babd96ab7a934d354d725cf164505a71d1eb08a9e5e274c534e8da9621cfd7e2bea13beb62b"
+
+[update]
+[update.modrinth]
+mod-id = "LNXUISCr"
+version = "QFvVmjuZ"

@@ -1,0 +1,101 @@
+{
+  "comment": "Template file, remove the underscore ('_') from the name to enable the config.",
+  "entries": [
+    {
+      "item": "minecraft:iron_helmet",
+      "resistance": 0.0045
+    },
+    {
+      "item": "minecraft:iron_chestplate",
+      "resistance": 0.009
+    },
+    {
+      "item": "hbm:hazmat_chestplate",
+      "resistance": 0.24
+    },
+    {
+      "item": "hbm:hazmat_helmet_grey",
+      "resistance": 0.4
+    },
+    {
+      "item": "minecraft:golden_leggings",
+      "resistance": 0.00675
+    },
+    {
+      "item": "minecraft:golden_helmet",
+      "resistance": 0.0045
+    },
+    {
+      "item": "minecraft:golden_boots",
+      "resistance": 0.00225
+    },
+    {
+      "item": "hbm:hazmat_leggings_grey",
+      "resistance": 0.6
+    },
+    {
+      "item": "hbm:hazmat_helmet",
+      "resistance": 0.12
+    },
+    {
+      "item": "hbm:hazmat_leggings",
+      "resistance": 0.18
+    },
+    {
+      "item": "minecraft:iron_boots",
+      "resistance": 0.00225
+    },
+    {
+      "item": "minecraft:netherite_boots",
+      "resistance": 0.1
+    },
+    {
+      "item": "hbm:hazmat_boots",
+      "resistance": 0.06
+    },
+    {
+      "item": "hbm:hazmat_leggings_red",
+      "resistance": 0.3
+    },
+    {
+      "item": "hbm:hazmat_chestplate_grey",
+      "resistance": 0.8
+    },
+    {
+      "item": "minecraft:golden_chestplate",
+      "resistance": 0.009
+    },
+    {
+      "item": "minecraft:netherite_leggings",
+      "resistance": 0.3
+    },
+    {
+      "item": "hbm:hazmat_boots_red",
+      "resistance": 0.1
+    },
+    {
+      "item": "hbm:hazmat_chestplate_red",
+      "resistance": 0.4
+    },
+    {
+      "item": "hbm:hazmat_helmet_red",
+      "resistance": 0.2
+    },
+    {
+      "item": "minecraft:iron_leggings",
+      "resistance": 0.00675
+    },
+    {
+      "item": "minecraft:netherite_chestplate",
+      "resistance": 0.4
+    },
+    {
+      "item": "hbm:hazmat_boots_grey",
+      "resistance": 0.2
+    },
+    {
+      "item": "minecraft:netherite_helmet",
+      "resistance": 0.2
+    }
+  ]
+}

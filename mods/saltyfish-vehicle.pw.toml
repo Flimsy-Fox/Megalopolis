@@ -1,0 +1,13 @@
+name = "SaltyFish Vehicle [Immersive Vehicles content pack]"
+filename = "SaltyFishVehicle_mc121_Beta_V1.3.5_iconfix.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BZQyVKg6/versions/rUUz9G1n/SaltyFishVehicle_mc121_Beta_V1.3.5_iconfix.jar"
+hash-format = "sha512"
+hash = "c0c41d412e21a6847e0fec6559dab6f85f4c151cc17adce6cd630e9183e97445c83f9937c571872e3e5bce95fc3f9bad5c269fe0b855caddf174abcd9883d25a"
+
+[update]
+[update.modrinth]
+mod-id = "BZQyVKg6"
+version = "rUUz9G1n"

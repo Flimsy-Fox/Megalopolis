@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+
+[[files]]
+file = "README.md"
+hash = "3f5e99a7dab34e5c8d1068e7dd4ea0192618ff0c3536bcc4f7f41cddb18598a0"
+
+[[files]]
 file = "config/Butchery.toml"
 hash = "6ecf6722825d7e33724d68c461376bb1f16c0e1f5f2527ab16b8d5ed2af33ee6"
 
@@ -9075,7 +9083,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-server-properties.pw.toml"
-hash = "6d1b481897d6572f68f28fa887efdd9de1765e10f4c3eb88377421fffd98c8af"
+hash = "ef7a49ba79cfd90588dd3c6a2e69bd2740bb6b41251c71aba14452c18716a866"
 metafile = true
 
 [[files]]
@@ -9944,11 +9952,6 @@ hash = "7ff548e16246073c6dc5c4b24aa8d6386098308ae56f5788452ed1e9e85983d0"
 metafile = true
 
 [[files]]
-file = "mods/waterframes.pw.toml"
-hash = "59e15d108b41b10145596a3ef899ad20ef8c8885504eef10cd89225aef87daef"
-metafile = true
-
-[[files]]
 file = "mods/watermedia-binaries.pw.toml"
 hash = "03c2bc9e406cebc8c70dbdb7cb7e1592e9c41c2d8c2c57ff65f9b1e1501cf4f2"
 metafile = true
@@ -9961,11 +9964,6 @@ metafile = true
 [[files]]
 file = "mods/watermedia.pw.toml"
 hash = "a71321ce54906ae436ab1534b91fd30bded062cedd3afb8d365d1bba17693ef7"
-metafile = true
-
-[[files]]
-file = "mods/watervision.pw.toml"
-hash = "393310e8c75c51eb3143c8ddcdac51917a5d759d428e5b962e4c2b4c8e87bc0e"
 metafile = true
 
 [[files]]

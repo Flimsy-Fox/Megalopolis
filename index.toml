@@ -8968,7 +8968,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-neoforge.pw.toml"
-hash = "17cf45aaab6d4964d4d851cfcbe4b5e6db539a2329216392bec4aea1c90b83a7"
+hash = "f659dbb9510a5eefe8a5d9e7a0941b313ba5b91c7b8ee24b9e118aa01e01195c"
+metafile = true
+
+[[files]]
+file = "mods/c2me-ocl.pw.toml"
+hash = "77534df6d3c7d8258102bd43d4d672883d57ce9dff76c2e87f025caf6414d402"
 metafile = true
 
 [[files]]

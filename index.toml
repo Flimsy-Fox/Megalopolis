@@ -9088,7 +9088,7 @@ metafile = true
 
 [[files]]
 file = "mods/default-server-properties.pw.toml"
-hash = "ef7a49ba79cfd90588dd3c6a2e69bd2740bb6b41251c71aba14452c18716a866"
+hash = "6d1b481897d6572f68f28fa887efdd9de1765e10f4c3eb88377421fffd98c8af"
 metafile = true
 
 [[files]]
@@ -9954,6 +9954,11 @@ metafile = true
 [[files]]
 file = "mods/voltaic.pw.toml"
 hash = "7ff548e16246073c6dc5c4b24aa8d6386098308ae56f5788452ed1e9e85983d0"
+metafile = true
+
+[[files]]
+file = "mods/vouch.pw.toml"
+hash = "ac5dc5777bd4516a79b20c52392d5fdca9e5850b9ec826501d365408931f8a95"
 metafile = true
 
 [[files]]

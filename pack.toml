@@ -1,17 +1,17 @@
 name = "Megalopolis"
 author = "Flimsy Fox"
-version = "3.1.0b"
+version = "3.2.0b"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8750520f4ad4b07c82eca3d9cdb2a1f07fe13754eb4b10bc84ceac1ede6cd73e"
+hash = "616412dc2f89e36e87d7c0aecda42722059633398a8b77b590a7a7aa8e837610"
 
 [versions]
 minecraft = "1.21.1"
 neoforge = "21.1.233"
 
 [options]
-acceptable-game-versions = ["1.20.1", "1.21.1"]
+acceptable-game-versions = ["1.16.5", "1.20.1", "1.21.1"]
 datapack-folder = "datapacks"

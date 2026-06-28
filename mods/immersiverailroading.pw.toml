@@ -1,8 +1,0 @@
-name = "ImmersiveRailroading"
-filename = "ImmersiveRailroading-1.21.1-neoforge-1.10.0-dcd7987.jar"
-side = "both"
-
-[download]
-url = "https://teamopenindustry.cc/maven/cam72cam/immersiverailroading/ImmersiveRailroading/1.21.1-neoforge-1.10.0-dcd7987/ImmersiveRailroading-1.21.1-neoforge-1.10.0-dcd7987.jar"
-hash-format = "sha256"
-hash = "8a58723aa9b053fd4714c343001edbb7333abbde08013a90ef3f07ff6fe871ce"

@@ -9327,6 +9327,11 @@ hash = "75b43f1a86593360f10703b7625da4e0a3c435bf13bf8b5b75fa383a0338dade"
 metafile = true
 
 [[files]]
+file = "mods/immersive-railroading.pw.toml"
+hash = "e2b7e53e779f49d2bef906030dd0be5af5d98d4215d93ad36e55dee6200f2097"
+metafile = true
+
+[[files]]
 file = "mods/immersive-vehicles-official-content-pack.pw.toml"
 hash = "3dd8cb8ebd8db5946da9bb635ab1e427000435fcf712f1385214e88d9ebd9ae1"
 metafile = true
@@ -9349,11 +9354,6 @@ metafile = true
 [[files]]
 file = "mods/immersivepetroleum.pw.toml"
 hash = "3eafdfa8267d75e9f90b7bebaca1529591a9d7651f312f8091f0adfcac19724f"
-metafile = true
-
-[[files]]
-file = "mods/immersiverailroading.pw.toml"
-hash = "a4aa0064c60e568745045d1aad1cd1cf933f13897b3a6830dace8779cde0163f"
 metafile = true
 
 [[files]]
@@ -9907,11 +9907,6 @@ hash = "48a53e4a0b0cbbe286cc2395733d3205b30d63994c76784da234727dcfa5a629"
 metafile = true
 
 [[files]]
-file = "mods/trackapi.pw.toml"
-hash = "d4a38df14656c78f21da171936ba51350420f33b5dcdc79feb74245414bb36e1"
-metafile = true
-
-[[files]]
 file = "mods/trafficcraft.pw.toml"
 hash = "27a8bbc034dc483589264ebede28596e6f947e5d0f7a4705ba76e36e6536fdf1"
 metafile = true
@@ -9942,8 +9937,8 @@ hash = "0e5570f1933bf7a3872c3bee2cdb550300e02a0d0914f009ad18e926a86693d0"
 metafile = true
 
 [[files]]
-file = "mods/universalmodcore.pw.toml"
-hash = "34d8d0ee3f6bdad2ba616eec739313c3932cfb5d15ab8dce151d3dffd39383e3"
+file = "mods/universal-mod-core.pw.toml"
+hash = "088b3b7d889c0fb71e510bf0eeb18949165b1b125fab5be1f1888d12bd49944d"
 metafile = true
 
 [[files]]

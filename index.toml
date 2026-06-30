@@ -8907,6 +8907,11 @@ hash = "392901b7f79963442553456af846d06f48b4057a054a928adb8a76eea13c6383"
 metafile = true
 
 [[files]]
+file = "mods/be_lod-compat.pw.toml"
+hash = "82c42ffb360582b1e4bb701cc4007d848a3644468f9fc7d6089a1e1ec2868f9d"
+metafile = true
+
+[[files]]
 file = "mods/better-advancements.pw.toml"
 hash = "93c4acd165a291c6d1e69c27b05b2747afc926b38a414712263fbc95f42da323"
 metafile = true
@@ -9292,11 +9297,6 @@ hash = "8419731f64df87ec81aac48c87bb31a80f4d6e9bc7fbd4b2fc452b66173ac6ad"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "3d47b1d933d04934a606be1cbb67481860c3d68c9ed4efc387c7745d23b732a7"
-metafile = true
-
-[[files]]
 file = "mods/immersive-aircraft-x-immersive-engineering.pw.toml"
 hash = "d20b6847fb1ca1d75ac372495330560b47fe2e0dacf573fd205c02942255b95f"
 metafile = true
@@ -9398,7 +9398,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-guns-neoforge.pw.toml"
-hash = "e463dc0ec24fab55655ebdb2f80035723b94370a63e6f01b385d44e5cd5b3d1e"
+hash = "bea6ca99d603d4d0c28ef6f3da78850e6f7707fb7952bf5a8e147b721a77ae72"
 metafile = true
 
 [[files]]
@@ -9938,7 +9938,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal-mod-core.pw.toml"
-hash = "088b3b7d889c0fb71e510bf0eeb18949165b1b125fab5be1f1888d12bd49944d"
+hash = "ac50718a55f1950405e8d40e46afe9e48c80f363ee09a1843696ba756603fd9b"
 metafile = true
 
 [[files]]

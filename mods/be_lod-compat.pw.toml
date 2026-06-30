@@ -1,0 +1,13 @@
+name = "be_lod-compat"
+filename = "be_lod_compat-0.7.3a-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7Nifu7N7/versions/MrV15AJj/be_lod_compat-0.7.3a-1.21.1.jar"
+hash-format = "sha512"
+hash = "fd6b0d53c01b6cd9aa6f3eca2c05d003d8bf822a541196f78cfd2d4e11b8a15ade6f6cf64f39fb235054e97ecaa053ac1b1f99a85e795be6da0943e7193f62c0"
+
+[update]
+[update.modrinth]
+mod-id = "7Nifu7N7"
+version = "MrV15AJj"

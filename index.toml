@@ -9357,6 +9357,11 @@ hash = "3eafdfa8267d75e9f90b7bebaca1529591a9d7651f312f8091f0adfcac19724f"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
+metafile = true
+
+[[files]]
 file = "mods/itemphysic.pw.toml"
 hash = "6fae5b0b22162ebfd83dd6c6700feed60c489cbf18c919adaf43aadcb6786ac8"
 metafile = true
@@ -9652,6 +9657,11 @@ hash = "d37624661ac566911960d1ef8562527273655645aef209f1a412ab0d7dcf4f3d"
 metafile = true
 
 [[files]]
+file = "mods/oculus-for-simple-clouds.pw.toml"
+hash = "7319897aee91b029b70c69b9534bfef00db1252ec6930469d86ecfabe4377f51"
+metafile = true
+
+[[files]]
 file = "mods/overflowing-bars.pw.toml"
 hash = "cb40fc0e1e0a3338d57b34a5ba2612ae9a9f0e32619695c4da637a98b4e52cf3"
 metafile = true
@@ -9759,6 +9769,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
+metafile = true
+
+[[files]]
+file = "mods/rrtt217-s-hdr-mod.pw.toml"
+hash = "c7ab881a1dd82dd3d498870a831e3446c49824cbc884d074bbbbcd1737204e0f"
 metafile = true
 
 [[files]]

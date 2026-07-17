@@ -9237,11 +9237,6 @@ hash = "0f534b4b056a439ac49630bb99e4468a53a41a30f5f81ffca7e6ff9e4eafae85"
 metafile = true
 
 [[files]]
-file = "mods/forgematica.pw.toml"
-hash = "a8bdefffee0ac7aab23ffd3ffdc2e7ce8a36048828dffdb3ae1911c82d84a1b0"
-metafile = true
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "a830f9e0393be04dd0a8a3a845b27e90cd34961887403c800e296182283d9c3e"
 metafile = true
@@ -9459,6 +9454,11 @@ metafile = true
 [[files]]
 file = "mods/libx.pw.toml"
 hash = "53c902738dcce141ebdbd8549c78ede8a0b867285a0f0148377125339130ce6d"
+metafile = true
+
+[[files]]
+file = "mods/litematica-neoforge.pw.toml"
+hash = "d9760d263becb0e9c3c307e23dfc08882dc932bffa712bd7898b96fd01baf23e"
 metafile = true
 
 [[files]]

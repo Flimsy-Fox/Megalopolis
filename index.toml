@@ -6718,7 +6718,7 @@ hash = "ee81d1578667e2c869c6f266c0564e952433f0a0e80a80ae84492d11f6a9609d"
 
 [[files]]
 file = "config/fml.toml"
-hash = "40d865c7677f27adb892d6fe1497775a87b9cdc1e58f3feed0efe885de608d04"
+hash = "ff1e469e05b1df27c0de044020656b84bba7ee629d3dbc97bbcb0028550c1cc9"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -8673,6 +8673,10 @@ file = "config/voltaic-common.toml"
 hash = "232dc9684be10d8d9af12da662aa10d88b817515ae8b5d6133775354ea18d2e7"
 
 [[files]]
+file = "config/vouch/vouch.toml"
+hash = "1b52f9674b07f395c3b4aafd7144889b0a75be50203596f22698198589661683"
+
+[[files]]
 file = "config/wands.json"
 hash = "49dc3bc8bdf924580e25a7121b4a6dd1086f0b31e88d713a10133784e60f69d1"
 
@@ -9203,7 +9207,7 @@ metafile = true
 
 [[files]]
 file = "mods/essential.pw.toml"
-hash = "a7f2473bcd7ff271bb30721f02d4af913ea0d6f31f61a6b5c4046bf873752143"
+hash = "71f057a1b0dacc5674f6d5af7b6738d2bb97d572819c5ad59fabebbe047dc32e"
 metafile = true
 
 [[files]]
@@ -9333,7 +9337,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-vehicles-r.a.g.e.pw.toml"
-hash = "3b6461d92303477956d6c90edf9599a6f97a2a7c5cc93e3cf00af064b1ffbc8f"
+hash = "629df98023486338c7ec5345099c196890b281c89ddd56f32981850510feefb0"
 metafile = true
 
 [[files]]
@@ -9588,7 +9592,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "23ae6070690635c357040e1361922474ca25a1b0cc621bd9204070ec6c74acaf"
+hash = "b6d7448e14c747318b083d7903baa4801ad524853f34205aa19f0cfa18ec0a92"
 metafile = true
 
 [[files]]
@@ -9743,7 +9747,7 @@ metafile = true
 
 [[files]]
 file = "mods/reeses-sodium-options.pw.toml"
-hash = "09306b955060349986ccf6a6d2a67f1e019fa172a7dc690dd6007f81c966309a"
+hash = "0f465bf38b13f887dbde506c859c9b5439ee9151ae5f3a98078b9f6c3a2c89ad"
 metafile = true
 
 [[files]]
@@ -9852,18 +9856,8 @@ hash = "02b29315d2ec0d055d0ebba1f36879da5bcacc823328a668c7e7340fb2cb03d4"
 metafile = true
 
 [[files]]
-file = "mods/sodium-options-api.pw.toml"
-hash = "d193173f0f5dfb4a921d44e29e8d5cee656dd3a40872939069715bb482b66fc9"
-metafile = true
-
-[[files]]
-file = "mods/sodium-options-mod-compat.pw.toml"
-hash = "d791fd50a3874ff69ab767bd35b7a30e4b33caaae9a129401a66cdc6cc43ee7c"
-metafile = true
-
-[[files]]
 file = "mods/sodium.pw.toml"
-hash = "0281ed9713f3141bdac363056a791845510e14761ea65b4b2813cf96d664b20a"
+hash = "abc285fb28b8df872e4c2bb31e04fc23e2724d9c84b4cb6fbc4320fc569c758f"
 metafile = true
 
 [[files]]

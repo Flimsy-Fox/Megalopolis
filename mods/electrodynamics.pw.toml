@@ -1,13 +1,13 @@
 name = "Electrodynamics"
-filename = "electrodynamics-1.21.1-1.0.6.jar"
+filename = "electrodynamics-1.21.1-1.0.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/xmhmr70o/versions/VSPvpS4Y/electrodynamics-1.21.1-1.0.6.jar"
+url = "https://cdn.modrinth.com/data/xmhmr70o/versions/4yVAdX1Z/electrodynamics-1.21.1-1.0.11.jar"
 hash-format = "sha512"
-hash = "856d0c2e2a866f25cc3ccf2000889aa0b7f9b899141834d65407bf77ac2c9b85b48b90e2dfb1352a4813572bcb078e41d116ae1a2bcfbda9fa60c217e0102272"
+hash = "bdd55e1ff1893dbe89c5acae80d1ac3dc9a2a16fc1df32f27067a964033fad52ba2e736b7c5c3552d08f9f8ef1f3d343252a65f56511abf053da118be409df4f"
 
 [update]
 [update.modrinth]
 mod-id = "xmhmr70o"
-version = "VSPvpS4Y"
+version = "4yVAdX1Z"

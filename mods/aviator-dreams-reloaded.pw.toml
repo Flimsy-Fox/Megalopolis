@@ -1,13 +1,13 @@
 name = "Aviator Dreams (Reloaded)"
-filename = "aviator-dreams-reloaded-neoforge-1.2.3+1.21.1.jar"
+filename = "aviator-dreams-reloaded-neoforge-1.2.5+1.21.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AOYDdieB/versions/PxQxAsWr/aviator-dreams-reloaded-neoforge-1.2.3%2B1.21.1.jar"
+url = "https://cdn.modrinth.com/data/AOYDdieB/versions/qyp2bwcd/aviator-dreams-reloaded-neoforge-1.2.5%2B1.21.1.jar"
 hash-format = "sha512"
-hash = "efde2775a5b43d77cdd3c493f274e699ad3170e75e40a1b0d958ab67168bd26c874f2799113982dad6f6e90dba0667b0f315c9509068a0a5cd70c8ac9b17b782"
+hash = "70c329be2741815d7684d3aee46c14301afe08935d129717a33452252c0269b5d624c02e80432f83d913fb97674e02b2a06a907b7ea4734ece7895015fe5f695"
 
 [update]
 [update.modrinth]
 mod-id = "AOYDdieB"
-version = "PxQxAsWr"
+version = "qyp2bwcd"

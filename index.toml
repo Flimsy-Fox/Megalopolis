@@ -9901,6 +9901,11 @@ hash = "de2fbb0fdbc03fa1cba3ab1b6464f711abd5993c63d5322f562812540247e2b7"
 metafile = true
 
 [[files]]
+file = "mods/threatengl.pw.toml"
+hash = "8ad08b7e8faec8a46438e1551f717e4a35bba2e23f44f490a35e4275e5030734"
+metafile = true
+
+[[files]]
 file = "mods/tips.pw.toml"
 hash = "bd655a806614985f8ad7a36ccde31ca70426fc207d4d4b046dd6a377e8814f18"
 metafile = true

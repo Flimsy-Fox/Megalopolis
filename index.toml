@@ -8976,6 +8976,11 @@ hash = "7a75656bafefbe7be347d937483e5ef9be70a79e08fcd2b47b45b429c87a15a3"
 metafile = true
 
 [[files]]
+file = "mods/butchery.pw.toml"
+hash = "f6d1978323e25d4085062067c000454bed811549a133ce6f07a3d143e4901c3d"
+metafile = true
+
+[[files]]
 file = "mods/c2me-neoforge.pw.toml"
 hash = "1a611a71baaf48d69f2a0fd226bc302b766ba0f54feabea802e28d51a40879ef"
 metafile = true

@@ -6434,15 +6434,15 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "498e63a232400fa7a515d0fa595d822fa07fbd083eb73ebbaeaafe8cf85fdff4"
+hash = "5ae20eb629ac7d8916c4a52d6c2dc7dc97e21bc225f80d37b2d351425efeaca3"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "096ac21c45db1739a96353bc9f3d21511c2d0d72514b7337dbcff0025383b177"
+hash = "403ee2c4d48d13b66b6919da147a0500113018c49834dde4bba4541d4b8b23ff"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "bbb0654974890e6b07b00af4055be8153514a606353f12d243020751efc8a3b3"
+hash = "9342656ad7edb0be7635a36d9d25b574f428700222860f71d0cd1e42e14982d2"
 
 [[files]]
 file = "config/defaultworldtype/biomes.txt"
@@ -8793,6 +8793,14 @@ file = "defaultconfigs/voltaic.txt"
 hash = "0a6a23e10c72a7a5bad173d3a8b2e4d5169d4c27548bad02bc16a3ff22ec9ed7"
 
 [[files]]
+file = "essential/config.toml"
+hash = "5cd4b10d1c0ad315cae6add5d8e422c67f1fe3edc00a42178ca8ac51a9bb60d3"
+
+[[files]]
+file = "essential/essential-loader.properties"
+hash = "27a4ac0e49e1093f83cfa824112d62948b54fdcaa9ed9c9de5e6b446cb1d64a5"
+
+[[files]]
 file = "fancymenu_data/browser_audio_settings.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -10024,10 +10032,6 @@ metafile = true
 file = "resourcepacks/voxel-trains-ir.pw.toml"
 hash = "f0de2e766168c4238afe8da466dedfa84344f492c2465610d6bb1cf57caca581"
 metafile = true
-
-[[files]]
-file = "servers.dat"
-hash = "2c8be642cf759efda87499ea9ed0becdb3a390178023ce451b61bb7d9db90427"
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"

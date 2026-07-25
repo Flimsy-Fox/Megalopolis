@@ -64,7 +64,7 @@ language = "en_us"
 	#Players must run /vouch markAsOnline to opt into premium auto-login on their next join.
 	#Prevents 'Invalid session' errors for cracked clients using premium usernames.
 	#If false, any username that exists in the Mojang API will receive an encryption challenge.
-	premium_offline_by_default = true
+	premium_offline_by_default = false
 
 #Session management
 [session]

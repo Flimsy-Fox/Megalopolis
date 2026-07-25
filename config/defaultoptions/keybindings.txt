@@ -124,6 +124,9 @@ key_key.electrodynamics.servoleggingsmode:key.keyboard.l:
 key_key.electrodynamics.toggleservoleggings:key.keyboard.k:
 key_key.electrodynamics.swapbattery:key.keyboard.r:
 key_key.solonion.open_food_book:key.keyboard.unknown:
+key_key.butchery.evokermaskpress:key.keyboard.c:
+key_key.butchery.pillagernosepress:key.keyboard.c:
+key_key.butchery.vindicatornosepress:key.keyboard.c:
 key_key.push_to_talk:key.keyboard.unknown:
 key_key.whisper:key.keyboard.unknown:
 key_key.mute_microphone:key.keyboard.m:SHIFT

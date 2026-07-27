@@ -8960,7 +8960,7 @@ metafile = true
 
 [[files]]
 file = "mods/builders-delight.pw.toml"
-hash = "dd3e909b4a5c69bf083e71beb203ec33b59ba9121280382bd7cd34dbbab45ee8"
+hash = "e4a05b2b5aa4048850d44aa1f9cde18abb2007c00bbef8ddc4bb4fa504815eaa"
 metafile = true
 
 [[files]]
@@ -9960,7 +9960,7 @@ metafile = true
 
 [[files]]
 file = "mods/universal-mod-core.pw.toml"
-hash = "ac50718a55f1950405e8d40e46afe9e48c80f363ee09a1843696ba756603fd9b"
+hash = "67810c7ae851cfcb73d994cea71ab389f08745b52302510288b4a0fd1ace1611"
 metafile = true
 
 [[files]]

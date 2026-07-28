@@ -9102,6 +9102,11 @@ hash = "c7b0ee75d0465c80bf03955ebd27be8a7124f7ff8c1f922d3e5bc1af5b1ba002"
 metafile = true
 
 [[files]]
+file = "mods/crops-love-rain.pw.toml"
+hash = "de9350881181ac02827716a1db6c79c5d89edbd896c8b6b2fed4066771a42b34"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
@@ -9428,7 +9433,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "cab23002036bed73ab5f842e43f8a1d5355be5209cc794f8016529b7853d075f"
+hash = "66a57cc8d304db7381210763955db9be51ca984c29292dc7ede40b40816130d0"
 metafile = true
 
 [[files]]
@@ -9588,7 +9593,7 @@ metafile = true
 
 [[files]]
 file = "mods/mapfrontiers.pw.toml"
-hash = "ad56a98297d8fff4a4921bf7b39b7142d07f9ffa8f0d29158cda93dcb6992415"
+hash = "c3c4d5efa5890f7457e958288f125cc6dff87f62c90a49234996a0b50be4a655"
 metafile = true
 
 [[files]]

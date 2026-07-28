@@ -8974,8 +8974,18 @@ hash = "44302c0b9c5e79066d77346140e933c9bda958326ffdf679df98987622b2d4e4"
 metafile = true
 
 [[files]]
+file = "mods/burnt-cold-sweat-compat.pw.toml"
+hash = "fb42811cd1acd69b56b01a233a04a42f5a6adb3a6f1e52908e8e80e25502d326"
+metafile = true
+
+[[files]]
 file = "mods/burnt-dynamic-trees.pw.toml"
 hash = "7a75656bafefbe7be347d937483e5ef9be70a79e08fcd2b47b45b429c87a15a3"
+metafile = true
+
+[[files]]
+file = "mods/burnt.pw.toml"
+hash = "92a3ee1c24adba4a246ef23ca64115f16b798c0cb314ff01fb473a785d0581bf"
 metafile = true
 
 [[files]]
@@ -9031,6 +9041,16 @@ metafile = true
 [[files]]
 file = "mods/cmatransportpack.pw.toml"
 hash = "6bf4ece3057e029d47c06dbc399b8853e3048c7a2b804b0f38e5e094df108a43"
+metafile = true
+
+[[files]]
+file = "mods/cold-sweat-altitude.pw.toml"
+hash = "b616eef6f3ebe303ea9792efaa5c402fcb52de251ada5733d46c8bc6ad534524"
+metafile = true
+
+[[files]]
+file = "mods/cold-sweat.pw.toml"
+hash = "74baf1f726b4c880b5e93fe55879c8621eabbe86f3dbb19ba674d48422b65101"
 metafile = true
 
 [[files]]

@@ -13,7 +13,7 @@
     "detectWorldData": true,
     "clientId": "450485984333660181",
     "defaultIcon": "grass",
-    "enableJoinRequests": false,
+    "enableJoinRequests": true,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
     "autoRegister": false
@@ -135,7 +135,8 @@
     },
     "dynamicIcons": {
       "megalopolis.flimsyfox.space": "https://api.mcsrvstat.us/icon/megalopolis.flimsyfox.space",
-      "127.0.0.1": "https://api.mcsrvstat.us/icon/127.0.0.1"
+      "127.0.0.1": "https://api.mcsrvstat.us/icon/127.0.0.1",
+      "3a9f7108-8365-45de-9773-89704071f1e4.essential-sps": "https://api.mcsrvstat.us/icon/3a9f7108-8365-45de-9773-89704071f1e4.essential-sps"
     },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",

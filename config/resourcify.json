@@ -7,6 +7,6 @@
   "resourcePacksEnabled": true,
   "dataPacksEnabled": true,
   "shaderPacksEnabled": true,
-  "worldsEnabled": true,
+  "worldsEnabled": false,
   "gifsDisabled": false
 }

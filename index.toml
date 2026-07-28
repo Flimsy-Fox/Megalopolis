@@ -8964,11 +8964,6 @@ hash = "e4a05b2b5aa4048850d44aa1f9cde18abb2007c00bbef8ddc4bb4fa504815eaa"
 metafile = true
 
 [[files]]
-file = "mods/builders-palette.pw.toml"
-hash = "d9d607ca1b2f06494854a81f4e67974b0129d80a3994af0665fb994b1cb4d8b1"
-metafile = true
-
-[[files]]
 file = "mods/buildersaddition.pw.toml"
 hash = "83c9eb0111e27dd3f95d38ffdf2bcb23e87dbca66a39cc5def8c501bb948a4d5"
 metafile = true
@@ -9099,11 +9094,6 @@ hash = "eb782f7993af2d30ddab28203fbc9d520d09dd53e36dd624734bfc7e86b34127"
 metafile = true
 
 [[files]]
-file = "mods/deeperdarker.pw.toml"
-hash = "a9ecc4476d26e707189e9f988c19f22961c33dfd5e5b4db1dfd6f87c6a81c545"
-metafile = true
-
-[[files]]
 file = "mods/default-options.pw.toml"
 hash = "16aa04ea994ad4259363094b8aabbe069435ae4ab666c27e1b11a0f20dd90c9c"
 metafile = true
@@ -9171,11 +9161,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
-metafile = true
-
-[[files]]
-file = "mods/dynamic-trees-quark.pw.toml"
-hash = "87a61d4fb5ff4a4800c3af8f71ba66e79583b769b6b53f50dcb5089cd660774f"
 metafile = true
 
 [[files]]
@@ -9739,11 +9724,6 @@ hash = "6be463e57622036302e6555834d4b915e9d0407ce646a20edc770901111eca0d"
 metafile = true
 
 [[files]]
-file = "mods/quark.pw.toml"
-hash = "726970c838cd6d724366956c2469b5a36dbe574abbd087317513359dfd1dd89e"
-metafile = true
-
-[[files]]
 file = "mods/radium.pw.toml"
 hash = "1375600837a536424b4e99878da81bc126ad8a1b962b6dea8e38c245b124e143"
 metafile = true
@@ -9961,11 +9941,6 @@ metafile = true
 [[files]]
 file = "mods/universal-mod-core.pw.toml"
 hash = "67810c7ae851cfcb73d994cea71ab389f08745b52302510288b4a0fd1ace1611"
-metafile = true
-
-[[files]]
-file = "mods/unusual-furniture.pw.toml"
-hash = "2441abf8ae001e8f2ddede167b559fd9ab1a402618ad95d22f4f9d1b2fdcef14"
 metafile = true
 
 [[files]]

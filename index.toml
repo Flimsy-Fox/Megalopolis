@@ -18,7 +18,7 @@ hash = "da41baa38cd86e7388841af4095cb06b9f6f3a1c883cedfe6f0632ea129f4f06"
 
 [[files]]
 file = "config/DistantHorizons.toml"
-hash = "24561c8c80af9b05f876d741e73764b4fa16a853ac79e06480cb33267ad1c6c6"
+hash = "588f50f1f347a0a47277a3fdd58cb35128e46a2d6d59b7872f0a2c2f46584a5c"
 
 [[files]]
 file = "config/ImmersiveAtmosphere.json"
@@ -6226,7 +6226,7 @@ hash = "621a81b4af985c6995e125a9f7fdf175378202f3341ada18c7a59bf9a03230e1"
 
 [[files]]
 file = "config/cpm.json"
-hash = "cd3b1414c7b3de86c461238bd0f8c7173748dd7dd5d327b0ce4806e30c4c65b3"
+hash = "0f7a62ff32129f726aec659086941c899fa458ce6b1288cb96ec7e2eac43f61c"
 
 [[files]]
 file = "config/crackerslib-client.toml"
@@ -6434,11 +6434,11 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "5ae20eb629ac7d8916c4a52d6c2dc7dc97e21bc225f80d37b2d351425efeaca3"
+hash = "f7d0105317f59208f93c30e5c5c9c197a9e7c49b9faed2138840ac8f2c5dbf7f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
-hash = "403ee2c4d48d13b66b6919da147a0500113018c49834dde4bba4541d4b8b23ff"
+hash = "50984b775d6b775a3912851d25a9050531e1085c61ff60157f33f6b4a285f7a1"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
@@ -6637,12 +6637,16 @@ file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
 hash = "95a1ff125fc28e51374d23de88537b00d86a1a6bb76f70194edae0048e67aa02"
 
 [[files]]
+file = "config/fancymenu/customization/pause_screen_layout.txt"
+hash = "be229aa799b77d6034aadb8837427369b85ab543a3fb771d387093acf8ae6bc8"
+
+[[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "89687e371ba708bc86adb28df7d372a46ef3dd3e5a1ba8f44bbd93e342fbfba4"
+hash = "1cc2e99969322866670404a38760206dd3e738b81d58a9c8acbc76eb4ae47379"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "e3501d80355fd80df6a9358065e518c8031b7941842cb1b4d264e5cbb3bea734"
+hash = "5c2833626fcb0151a50ceedb17eb2ca2c72b63ee7305d9c0a9829166339ea7dc"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -7621,22 +7625,6 @@ file = "config/immersivepetroleum-server.toml"
 hash = "cd481ab07205b4e1bbf138ac175be0380a34c98887092575a62d2ae94835cb09"
 
 [[files]]
-file = "config/immersiverailroading.cfg"
-hash = "7bb26e68721e2c6dbb7a6f42bc7f4555d0065e22de80c82ac1597ebf187100ce"
-
-[[files]]
-file = "config/immersiverailroading_graphics.cfg"
-hash = "a395ce6456de6f34b1c5cb8ae0ef32b05e260fba4ff8efb3621f304dbc0e3131"
-
-[[files]]
-file = "config/immersiverailroading_permissions.cfg"
-hash = "5f8644271ccc99183610089aa0a89af8fd05a01ceb40ab72042dcc444a9c54c1"
-
-[[files]]
-file = "config/immersiverailroading_sound.cfg"
-hash = "9f501d9f611c172640b53b0c4cce52271b2ee501eaab021e0026f5fa859798a4"
-
-[[files]]
 file = "config/industrialupgrade-common.toml"
 hash = "3e9fd5e4f4bd43705f070d1ad93d306c54acafebf38f715785bb7598d649ee39"
 
@@ -8238,7 +8226,7 @@ hash = "e0e6d0e879a535b8022dc6d65062676488439086030941c40dc1383f6663fd02"
 
 [[files]]
 file = "config/simpleclouds-client.toml"
-hash = "c430f85f5f3b06134700548a05996157a9258451f168ee75cd0756c4fae5070e"
+hash = "841e0074bff197295f6c38b006a9e0df1c831d4df3297d8d2f5baae257c3a5e4"
 
 [[files]]
 file = "config/simpleclouds-common-1.toml.bak"
@@ -8674,7 +8662,7 @@ hash = "232dc9684be10d8d9af12da662aa10d88b817515ae8b5d6133775354ea18d2e7"
 
 [[files]]
 file = "config/vouch/vouch.toml"
-hash = "1b52f9674b07f395c3b4aafd7144889b0a75be50203596f22698198589661683"
+hash = "1e0b8a9edeffadcc1393999d1967abf0275092201a10ab4d8a8822ec413df27e"
 
 [[files]]
 file = "config/wands.json"
@@ -8989,11 +8977,6 @@ hash = "7a75656bafefbe7be347d937483e5ef9be70a79e08fcd2b47b45b429c87a15a3"
 metafile = true
 
 [[files]]
-file = "mods/burnt.pw.toml"
-hash = "92a3ee1c24adba4a246ef23ca64115f16b798c0cb314ff01fb473a785d0581bf"
-metafile = true
-
-[[files]]
 file = "mods/butchery.pw.toml"
 hash = "f6d1978323e25d4085062067c000454bed811549a133ce6f07a3d143e4901c3d"
 metafile = true
@@ -9155,7 +9138,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "d5b9c23df79ef871a70032567db2512904251347bdf13da80fbb8b00a846a79a"
+hash = "e39f78864e57ffadc2f09e1f89ce8b5bc5dd2ccea03e125db2508d9cb46fcd3b"
 metafile = true
 
 [[files]]

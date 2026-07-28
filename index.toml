@@ -8954,6 +8954,11 @@ hash = "68d6016fa3707c434b3aca5db041c7518c70feb53d0183faa2502cc6efd4c827"
 metafile = true
 
 [[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "22d9510588b081cf9905f6549d24bc11012aa8d9c7d38a8619ab9db5ccb7b9a8"
+metafile = true
+
+[[files]]
 file = "mods/bridging-mod.pw.toml"
 hash = "c50696cd98b02ba03425574c7850443f5cba8e097af4b6ae1c8b42bd5316a8eb"
 metafile = true
@@ -9129,6 +9134,11 @@ hash = "6886c6cc7d4d43e2b9792af5c91fe381be0b33b1aea5f0decc465a5c17bc7004"
 metafile = true
 
 [[files]]
+file = "mods/delight-lib.pw.toml"
+hash = "c4fb5bf78ad912a20ff50767f4e5cb64fd84f04d58db0c79bc728b643acc4038"
+metafile = true
+
+[[files]]
 file = "mods/densefuel.pw.toml"
 hash = "ef62e8c73a392b534e9cc1f7454817324b27d5ac22ed7db99814982ac40c546b"
 metafile = true
@@ -9239,6 +9249,21 @@ hash = "659d62e8479f856fa167e4c84721fee905ae3582710e1e49919cf6fa135a064b"
 metafile = true
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
+metafile = true
+
+[[files]]
+file = "mods/farmers-expanse.pw.toml"
+hash = "9053962ca2d8b8356dc39fd1b6f878383420ce527e2807d55feaabaac85a9557"
+metafile = true
+
+[[files]]
+file = "mods/farmers-pizzeria.pw.toml"
+hash = "ef7be6b02d0348ff3b296b95654fb02b18af552dd7807f568cac11850c92acbe"
+metafile = true
+
+[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
@@ -9261,6 +9286,11 @@ metafile = true
 [[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "a0b3083a1577130adb77867a6f8b6cf0c5bdd3c0c8b2995fa8b5fca323ed09a0"
+metafile = true
+
+[[files]]
+file = "mods/fungi-delight.pw.toml"
+hash = "2997a93c85ff1cb7db547bb659beb333d93c99153cb0e9d4d6ead7b427835d14"
 metafile = true
 
 [[files]]
@@ -9616,6 +9646,11 @@ metafile = true
 [[files]]
 file = "mods/more-beautiful-torches.pw.toml"
 hash = "2b1cbe1d0622a206bc38bae140d83ebf2086e034100eaaf74e3123d7bc124843"
+metafile = true
+
+[[files]]
+file = "mods/more-delight.pw.toml"
+hash = "7b00b0ef46a798a4a46fe541314c63cfd62017190cd554e855cc21ef44e32635"
 metafile = true
 
 [[files]]

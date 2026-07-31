@@ -1,13 +1,21 @@
 {
-  "editorLastVersion": "0.6.26a",
-  "editorRecentProjects": [],
-  "titleScreenButton": true,
+  "editorLastVersion": "0.6.27a",
+  "playerSettings": {},
+  "globalSettings": {
+    "safetyProfile": "off"
+  },
+  "blockedList": {},
   "serverSettings": {},
-  "keybinds": {},
+  "editorUVAreaAlpha": 0.8,
   "editorSelectMouseButton": 0.0,
+  "titleScreenButton": true,
+  "keybinds": {},
+  "friendSettings": {},
+  "editorDragMouseButton": -1.0,
   "editorMenuMouseButton": 1.0,
   "editorRotateMouseButton": 2.0,
-  "editorDragMouseButton": -1.0,
-  "blockedList": {},
-  "selectedModel": "AnthroFoxRegalMale.cpmmodel"
+  "editorRecentProjects": [],
+  "safetyProfiles": {},
+  "friendList": {},
+  "selectedModel": ""
 }

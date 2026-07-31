@@ -1,13 +1,13 @@
 name = "MapFrontiers"
-filename = "MapFrontiers-1.21.1-2.7.0-beta.18-neoforge.jar"
+filename = "MapFrontiers-1.21.1-neoforge-3.0.0-beta.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hWlsli6y/versions/ISVYP2Bt/MapFrontiers-1.21.1-2.7.0-beta.18-neoforge.jar"
+url = "https://cdn.modrinth.com/data/hWlsli6y/versions/RXFcKCb4/MapFrontiers-1.21.1-neoforge-3.0.0-beta.11.jar"
 hash-format = "sha512"
-hash = "b337bba38050dc58e7524a84ba7ecf4f57ffed02e265fbe709082b76f87c2b27f1e3a032bba43242c2d2275926295dfdff47c3d26c29373ab6eb33ea08638fdf"
+hash = "36f43cc40104965fc54d8a23e0bb4cfad47082471d8be681fb73b6be2d34b2bf6813db9f048a70aeccca3c2b9afdf703fd62b275b546cb54f4c934c2fa45c207"
 
 [update]
 [update.modrinth]
 mod-id = "hWlsli6y"
-version = "ISVYP2Bt"
+version = "RXFcKCb4"

@@ -1,5 +1,5 @@
 {
-  "checkForUpdates": true,
+  "checkForUpdates": false,
   "shaderSolidFix": false,
   "chairsFacePlayer": true,
   "countersOfDifferentMaterialsConnect": false,

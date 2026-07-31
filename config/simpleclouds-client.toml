@@ -85,7 +85,7 @@ showVivecraftNotice = false
 [performance]
 	#EXPERIMENTAL. Uses a slightly modified algorithm that removes sync calls between chunk generator compute dispatches at the cost of higher memory usage. May result in a performance boost.
 	#Default: false
-	concurrentComputeDispatches = false
+	concurrentComputeDispatches = true
 	#Specifies if faces that are not visible to the camera should be tested during mesh generation. Settings this to off can improve performance at the cost of visual issues with shadows and storm fog.
 	#Default: false
 	testSidesThatAreOccluded = false
@@ -154,9 +154,9 @@ showVivecraftNotice = false
 [distant_horizons]
 	#Toggles shadows that appear on distant terrain.
 	#Default: true
-	distantShadows = false
+	distantShadows = true
 	#Specifies the distance shadows can render.
 	#Default: 5000
 	# Default: 5000
 	# Range: 500 ~ 15000
-	shadowDistance = 1000
+	shadowDistance = 5000

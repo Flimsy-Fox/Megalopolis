@@ -1,13 +1,13 @@
 name = "[Immersive Vehicles] R.A.G.E - Best cars to drive!"
-filename = "R.A.G.E-V2.3_1.20.1.jar"
-side = "server"
+filename = "R.A.G.E 3.0_beta1_hotfix_1.16.5-26.1.jar"
+side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/U9grspy8/versions/OeFDzqR2/R.A.G.E-V2.3_1.20.1.jar"
+url = "https://cdn.modrinth.com/data/U9grspy8/versions/dAA2ZhVr/R.A.G.E%203.0_beta1_hotfix_1.16.5-26.1.jar"
 hash-format = "sha512"
-hash = "8e11cf8496b9984cfe1a57e192957b7c409237f287111b00b3996f7f531604e4d12de4178f94287fd770d74e0a50c939170f2d6b14f48997810d445ad19e8bf9"
+hash = "7b93c00e315419f92cb15d2d3bc30a77ab400cb93157e7ecef9622cf90baa4dd2529cac9f135bebf113b1ac2cf19ac62e24916b8da497107095e6991a6762184"
 
 [update]
 [update.modrinth]
 mod-id = "U9grspy8"
-version = "OeFDzqR2"
+version = "dAA2ZhVr"

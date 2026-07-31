@@ -21,12 +21,12 @@ snow-cover:
 accumulation:
   naturalMelting: true
   smoothAccumulation: true
-  snowAndIceMeltInWarmBiomes: false
+  snowAndIceMeltInWarmBiomes: true
   maxLayers: 8
   accumulatesDuringSnowstorm: true
   accumulatesDuringSnowfall: false
 integration:
-  accumulationWinterOnly: false
+  accumulationWinterOnly: true
 debug:
   forceVanillaIceSnowLogic: false
   mobSpawningCommand: false

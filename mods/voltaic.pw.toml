@@ -1,13 +1,13 @@
 name = "Voltaic"
-filename = "voltaic-1.21.1-1.0.6.jar"
+filename = "voltaic-1.21.1-1.0.11.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/kzF5itx6/versions/m5W0A4sV/voltaic-1.21.1-1.0.6.jar"
+url = "https://cdn.modrinth.com/data/kzF5itx6/versions/Shd5Tlv5/voltaic-1.21.1-1.0.11.jar"
 hash-format = "sha512"
-hash = "759268d3774e59c307f2776488db00abdc1d7116450c2db98272962a7144bc1a6cc8720aac3f84bce27fccad892b98a1aa14b4291a76debaa2aa935ccdf7477d"
+hash = "9b1214e81566179ca10149dc53185d08e45b75a548e8c4cc2fe8aa4b3c9647dec04fb60e329d5721970e33eef720ed9a234a0a4970063a21b4c7ad415797ef6f"
 
 [update]
 [update.modrinth]
 mod-id = "kzF5itx6"
-version = "m5W0A4sV"
+version = "Shd5Tlv5"

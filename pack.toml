@@ -1,6 +1,6 @@
 name = "Megalopolis"
 author = "Flimsy Fox"
-version = "3.9.0b"
+version = "3.9.1b"
 pack-format = "packwiz:1.1.0"
 
 [index]

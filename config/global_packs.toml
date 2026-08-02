@@ -13,7 +13,7 @@ log_pack_ids = false
 # This config allows you to add or remove folders or single files as Data-/Resourcepacks
 # For that simply specify the file path to the folder/file relative to your <instance> folder
 [resourcepacks]
-	required = ["resourcepacks/GVR_Official_V2.zip", "resourcepacks/Voxel Trains V5 1.16.zip", "resourcepacks/Sparkles_1.21.x_v1.1.3.zip"]
+	required = ["resourcepacks/GVR_Official_V2.zip", "resourcepacks/Voxel Trains V5 1.16.zip", "resourcepacks/Sparkles_1.21.x_v1.1.10.zip"]
 	# Check game log if log_pack_ids is set to true, you need to add the full IDs listed in there.
 	# Search for "# Listing Resource Packs #" inside the log
 	enable_builtin = []

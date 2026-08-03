@@ -9216,6 +9216,11 @@ hash = "2e7a5374856f7c4fc7ce6eb09cbafdeaa6da60998c34d7c292e480b984c308ef"
 metafile = true
 
 [[files]]
+file = "resourcepacks/megalopolis-resources.pw.toml"
+hash = "8c54726a11b35dc9fc9faa4bee7cc614bfd4cc41e61479d5cf612f002623fd63"
+metafile = true
+
+[[files]]
 file = "resourcepacks/sparkles.pw.toml"
 hash = "cff6586a35784d89c1d3bf0325775f89b99190ffa4179643fae24fdb391fb652"
 metafile = true

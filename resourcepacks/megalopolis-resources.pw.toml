@@ -1,0 +1,13 @@
+name = "Megalopolis Resources"
+filename = "Megalopolis-3.9.1-1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/yuF7ETIg/versions/HTIP9tAt/Megalopolis-3.9.1-1.zip"
+hash-format = "sha512"
+hash = "e01a2aa14d513d711fade723a60e19f0f25a92ffb2e08874ad8c583d9c1c98f4435d612efc46143e93a5875365e6b813832fe8be60d9705a0ff89478f18ccb71"
+
+[update]
+[update.modrinth]
+mod-id = "yuF7ETIg"
+version = "HTIP9tAt"

@@ -179,7 +179,7 @@
 	#Properties relating to network
 	[common.network]
 		#If true, Hosts, Creative mode players and OPs will get the welcoming messages and announcements.
-		firstJoinMessages = true
+		firstJoinMessages = false
 		#The distance players need to be within to be able to track new projectiles trails. Higher values means you can see projectiles from that start from further away.
 		#Range: 1.0 ~ 1.7976931348623157E308
 		projectileTrackingRange = 200.0

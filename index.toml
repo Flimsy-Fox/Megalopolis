@@ -7365,11 +7365,6 @@ hash = "206ca58e8978bb012e8469ea9813c64335984bc7ec93b88bc3f0d573f432ab9c"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-electricity.pw.toml"
-hash = "2dd0dbe4b0e915990502f03ed870e484636e2425ec96a24066b339d634fc620f"
-metafile = true
-
-[[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "ae6fd52d8bdcbeca5bbe6db840f22f92c1928fe0fda22017b19612b9b00a245a"
 metafile = true

@@ -1,13 +1,13 @@
 name = "Default Server Properties"
-filename = "default-server-properties-neoforge-21.0.0.jar"
+filename = "default-server-properties-neoforge-21.0.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/Fnrzx9Jl/versions/RnxqWPH3/default-server-properties-neoforge-21.0.0.jar"
+url = "https://cdn.modrinth.com/data/Fnrzx9Jl/versions/NGcM1O5M/default-server-properties-neoforge-21.0.1.jar"
 hash-format = "sha512"
-hash = "30e5fecdd341e309b33f81d0e872d8dd5cc62e8ad7c41bae4889209886207f49880d39b9ace88ad220b604010ff6b07419ae8f10a4da454b49b4e84864cea8e5"
+hash = "c5a39cc4929c1292af08f461cabdeba6fec62b0a7ab884a2e9d89dd8ce4bcee3b68186a4c8297c05641ce6b85ea70714b2a3df93331fa553277f90f8f867c99d"
 
 [update]
 [update.modrinth]
 mod-id = "Fnrzx9Jl"
-version = "RnxqWPH3"
+version = "NGcM1O5M"

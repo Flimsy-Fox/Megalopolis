@@ -1,13 +1,13 @@
 name = "Burnt Dynamic Trees"
-filename = "burnt_dt-neoforge-1.21.1-1.1.1.jar"
+filename = "burnt_dt-neoforge-1.21.1-1.2.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/tD9V4CqO/versions/oIjVeIza/burnt_dt-neoforge-1.21.1-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/tD9V4CqO/versions/lEu29vFE/burnt_dt-neoforge-1.21.1-1.2.6.jar"
 hash-format = "sha512"
-hash = "91d5dbf4969a4d8f9bfa748db30933285b33096947032bfdbba6a5d14729bb0f16b4b3d9f4c73ce98ae4654ee5a1526ca397336b2e631ae2f32d6c27e212a84a"
+hash = "dc2bda207ad4d31b070a5c5dee9ab7eb5f44b7a82f8babf6d91027a55217bcd6b6952c91e26dffc943e2eda48be27e48a0f925f84be8ebca6d60a48761074a50"
 
 [update]
 [update.modrinth]
 mod-id = "tD9V4CqO"
-version = "oIjVeIza"
+version = "lEu29vFE"

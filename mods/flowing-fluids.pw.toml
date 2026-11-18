@@ -1,13 +1,13 @@
 name = "Flowing Fluids"
-filename = "flowing_fluids-1.0.6-1.21-neoforge.jar"
+filename = "flowing_fluids-1.0.8-1.21-neoforge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/s1I3BT95/versions/k37oVEnG/flowing_fluids-1.0.6-1.21-neoforge.jar"
+url = "https://cdn.modrinth.com/data/s1I3BT95/versions/eacsLDPg/flowing_fluids-1.0.8-1.21-neoforge.jar"
 hash-format = "sha512"
-hash = "c903f5a9d67e860ef641869e54fe6d6a6ee0ae5285e754ac465160e63b15512453d374ead3d288fa9bb67c9050a6d6b8f2db7c1b7bc06e398a9a3969e9409c29"
+hash = "0f52b6e0e6e04c9bd6fffd3b049c428e45f022fd70f040f92d5fa5b4427e9b9a7de8bc67bbcb5b708076965401b82561e22815a1bd1afed43b8d3e0549ab5d3d"
 
 [update]
 [update.modrinth]
 mod-id = "s1I3BT95"
-version = "k37oVEnG"
+version = "eacsLDPg"

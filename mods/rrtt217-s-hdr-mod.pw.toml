@@ -1,13 +1,13 @@
 name = "rrtt217's HDR Mod"
-filename = "hdr_mod-neoforge-2.3.2-1.21.1.jar"
+filename = "hdr_mod-neoforge-2.5.2-1.21.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/tycXenOB/versions/x601nSHe/hdr_mod-neoforge-2.3.2-1.21.1.jar"
+url = "https://cdn.modrinth.com/data/tycXenOB/versions/ekkMvpQM/hdr_mod-neoforge-2.5.2-1.21.1.jar"
 hash-format = "sha512"
-hash = "d5cea935241caf22e528f6b3ef533cc7514ae14fdbf8abd092f94455b6987c8c935942b6135c4bc6043f5c0dbd7f882e699a0ae4127535b468d9187fcc8f6e5a"
+hash = "635c1107238d66ceba78db581115c4b6d911afed6a87f4e2e3abf99a6b3a7985fd3d9e885fcd205ba03f93f43f225c32be61e30b4f022b82822a88ac137c6a84"
 
 [update]
 [update.modrinth]
 mod-id = "tycXenOB"
-version = "x601nSHe"
+version = "ekkMvpQM"

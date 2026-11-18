@@ -1,13 +1,13 @@
 name = "Advanced Chimneys"
-filename = "AdChimneys-1.21.1-11.1.8.0-NeoForge-build.1029.jar"
+filename = "AdChimneys-1.21.1-11.1.14.0-NeoForge-build.1236.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/r2rWUhnP/versions/hloXC4AU/AdChimneys-1.21.1-11.1.8.0-NeoForge-build.1029.jar"
+url = "https://cdn.modrinth.com/data/r2rWUhnP/versions/A2wTbGn9/AdChimneys-1.21.1-11.1.14.0-NeoForge-build.1236.jar"
 hash-format = "sha512"
-hash = "e8ba594c592832b7b543e19709c6e08adf5515108e79f399abdb3e66fedb1a86be1cff2c65a6b2613b89328db570cea3c049ff1e2a65fb0b01ce3313069dd672"
+hash = "ff0e11c2b6d252a783d5009541302c49b2f383187b9363072e40d3fd2b31fc9242d67a1ff9f70b06e18d33b76bab85550d099a0cbd12d4cb95c5b6a6a4d4a7e2"
 
 [update]
 [update.modrinth]
 mod-id = "r2rWUhnP"
-version = "hloXC4AU"
+version = "A2wTbGn9"

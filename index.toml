@@ -7171,7 +7171,7 @@ metafile = true
 
 [[files]]
 file = "mods/burnt-dynamic-trees.pw.toml"
-hash = "4c2d1b7e1e074bdcf6679476945012d64c4093661dd2eef3d80ef9e2398ecbcf"
+hash = "7a75656bafefbe7be347d937483e5ef9be70a79e08fcd2b47b45b429c87a15a3"
 metafile = true
 
 [[files]]
@@ -8202,11 +8202,6 @@ metafile = true
 [[files]]
 file = "mods/watermedia-binaries.pw.toml"
 hash = "92d9d967d5e0c937dacd51db56d20099ba209213bdae189b5bb853262026da29"
-metafile = true
-
-[[files]]
-file = "mods/watermedia-yt-plugin.pw.toml"
-hash = "c6400cbca1fe48cfcdf3bb0b643b5be549247a3bc7468cf0db6707ecce9510f6"
 metafile = true
 
 [[files]]

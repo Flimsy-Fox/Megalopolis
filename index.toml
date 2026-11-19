@@ -7005,7 +7005,7 @@ metafile = true
 
 [[files]]
 file = "datapacks/tectonic.pw.toml"
-hash = "fae51035fc726ed33dd652d9d7963dc00c1211cb44a06fd9844d35429755bf69"
+hash = "e0f101809cc95ebf9cc24cb550ed7ae5475210ca0e6ce15736baa431a025839f"
 metafile = true
 
 [[files]]
@@ -7191,7 +7191,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "594cf4ca23d3eca84b27092e170737cd6a51a99a3a83c864f68512b02e487efb"
+hash = "bef7f46e38b038b0ee236735061002f26eebc05da8ffabd14819cd9c31b312ec"
 metafile = true
 
 [[files]]
@@ -7291,7 +7291,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+hash = "e622857e271e0ebd3d80f84f8230474d76f0150354cb06832deac2134448cbcb"
 metafile = true
 
 [[files]]
@@ -7317,11 +7317,6 @@ metafile = true
 [[files]]
 file = "mods/delight-lib.pw.toml"
 hash = "c4fb5bf78ad912a20ff50767f4e5cb64fd84f04d58db0c79bc728b643acc4038"
-metafile = true
-
-[[files]]
-file = "mods/densefuel.pw.toml"
-hash = "ef62e8c73a392b534e9cc1f7454817324b27d5ac22ed7db99814982ac40c546b"
 metafile = true
 
 [[files]]
@@ -7451,7 +7446,7 @@ metafile = true
 
 [[files]]
 file = "mods/forgeendertech.pw.toml"
-hash = "edf78a6383cdf4dd239be26b890b44ffc8b4cdcd4a12a96da8f456a7e5fe6a23"
+hash = "0c1b9625beb7476450c24c2ded127d6a8b3fbbd7365baa1355964a29080f3e4a"
 metafile = true
 
 [[files]]
@@ -7636,7 +7631,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-guns-neoforge.pw.toml"
-hash = "8e7edef42f14a1e4ab834fb6ec70b6eb31d0208a81b3eac0569c024ad18f0b04"
+hash = "51ba50ec19c9000078d60c66d1a743545caec36fe556efbea296bd74567d4728"
 metafile = true
 
 [[files]]
@@ -7866,7 +7861,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-restrictions.pw.toml"
-hash = "dc7e58c97d56d9764f578eb0afe6464e47701e7d72b5bd6a3d37e868bc0924bc"
+hash = "1b6992bbce7bb400e5cc57769879c86271db2933a578afd9ea3d9f177a35a920"
 metafile = true
 
 [[files]]
@@ -8075,6 +8070,11 @@ hash = "921d02a072ec9644b1557eece1a090f0be59fae479e652b1ba9c5cd16afba8f7"
 metafile = true
 
 [[files]]
+file = "mods/snassets-library-particles.pw.toml"
+hash = "25c1de3ece15ee04b0527a72f731795d98af837ebf1e4c1fe4bacd8f2a825a2f"
+metafile = true
+
+[[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "87bbeb14cb18cf4f9a721c420da8dd39b1bae09f68f624d4276d8f1fdc4115e1"
 metafile = true
@@ -8096,12 +8096,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "882a37f53c24ebad93b2fcd5feb972154f9c6df42d94e4b9282edfdafe595f41"
+hash = "44fbfa6f8f0cda4f628d2f1488b758f84b27a05bbfde836cdfe6b176eb4e6b81"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "a9c525571077c7473c6f09bfe795d045d98b60092e779f259067a206a9190647"
+hash = "538402dccb562c05a3e126e2db0ee2d0d97e5227776c51c33834aeeb01c192a8"
 metafile = true
 
 [[files]]
@@ -8126,7 +8126,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurize.pw.toml"
-hash = "50f93855520354d8323b9590f5be09e4c8ce6ef212a6c384534b5c3eb7490ea0"
+hash = "c6ad34bdaea0616bc1ee3040b455e934233945accc9bba3c4ba28d5197376f0c"
 metafile = true
 
 [[files]]
@@ -8201,7 +8201,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia-binaries.pw.toml"
-hash = "be0631af104fe8eed2c5f77a1dfdbd1700b71640d24438ed60bdffaa957b7990"
+hash = "92d9d967d5e0c937dacd51db56d20099ba209213bdae189b5bb853262026da29"
 metafile = true
 
 [[files]]
@@ -8211,7 +8211,7 @@ metafile = true
 
 [[files]]
 file = "mods/watermedia.pw.toml"
-hash = "da8d2961cd4074dd2a18a9f584946a7ed4c4611ebc4b674fad07c68f3ab969df"
+hash = "39c8018bf31fe764a68adddde89e556f5226ef116345a6f69ff3b79218ea7e6c"
 metafile = true
 
 [[files]]

@@ -3,9 +3,9 @@ filename = "tectonic-datapack-3.0.13.zip"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/8yP0B193/tectonic-datapack-3.0.13.zip"
+url = "https://cdn.modrinth.com/data/lWDHr9jE/versions/pxgiJaJp/tectonic-datapack-3.0.29.zip"
 hash-format = "sha512"
-hash = "b39ee82c031abb2f81d9a1a862e707f06fe41d9b20fcc95d9eb34839c7c8cf1906a01739e9d7e669a25a793cf5d40d3bdf5b86d7819f45bbabfd7f0d29b49d92"
+hash = "e425783bb29ef1633af881e0174f21d7f0039591a7ba1dd4686d016a373680b46c0117219a66651b05aa0924c933f03ef8ab2ed68c801e431207b260feb6bdb0"
 
 [update]
 [update.modrinth]

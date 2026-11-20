@@ -1,0 +1,8 @@
+name = "revelation"
+filename = "dev.zip"
+side = "both"
+
+[download]
+url = "https://github.com/HaringPro/Revelation/archive/refs/heads/dev.zip"
+hash-format = "sha256"
+hash = "cdfdde9cf65ec70a1908128a69d98823de17a350504f23cbda23cf42d065331a"

@@ -7240,6 +7240,11 @@ hash = "9d9802c9b8af95c7e98356371cad12a2d87b4609c7bafe36c63352e7d448b58c"
 metafile = true
 
 [[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "c7f9286eabbfd298a73a92dc91031a27a8551a7cda8656f2173a4ba8cc0ac1a2"
+metafile = true
+
+[[files]]
 file = "mods/comforts.pw.toml"
 hash = "36f2f6e74b7dbeccb504572d47006582207544fa234a095093b97adfc7ecd5ac"
 metafile = true
@@ -7517,6 +7522,11 @@ metafile = true
 [[files]]
 file = "mods/ichunutil.pw.toml"
 hash = "4dcfc94168c8681f207b0124d574a970472601cd1b5e9b215a37265c753b7b47"
+metafile = true
+
+[[files]]
+file = "mods/icys-better-horses.pw.toml"
+hash = "d3047b5517cbe741111e185d8f1a6f246abd7d01f5197bb82e5c8fe693af2e0b"
 metafile = true
 
 [[files]]
@@ -7810,6 +7820,11 @@ hash = "ef65836e005bd42a0f40df30a94eba1ad7ee5ed3194b11eafbeadc64edb44252"
 metafile = true
 
 [[files]]
+file = "mods/modonomicon.pw.toml"
+hash = "895b41750406b96342b8f3e875a4764e96f4450461e663ecf8d7fe7c7f519867"
+metafile = true
+
+[[files]]
 file = "mods/monolib.pw.toml"
 hash = "2ee5f4435c1ddb6cd30eea29a9dfac61b45d4fdc7c17e724b0674042118d2cbd"
 metafile = true
@@ -7882,6 +7897,11 @@ metafile = true
 [[files]]
 file = "mods/nrb.pw.toml"
 hash = "31504d0134a5afa54c6ed91da93e06f628806669a50261dae24e2c781c74278d"
+metafile = true
+
+[[files]]
+file = "mods/ntm-decentralized-edition.pw.toml"
+hash = "41ddf8d1b740736b4c7260e387dd6467f8671e86b0385d50c1d1d54d982a0d07"
 metafile = true
 
 [[files]]
@@ -7987,6 +8007,11 @@ metafile = true
 [[files]]
 file = "mods/resourcify.pw.toml"
 hash = "72b75c125aee339e96885264e722420b5741f5bedac10ca3fba210d71a3a3af4"
+metafile = true
+
+[[files]]
+file = "mods/revelation.pw.toml"
+hash = "77739435763701cb97c3b88701347fd3e60d10ba78434f7d71709cf562355fef"
 metafile = true
 
 [[files]]

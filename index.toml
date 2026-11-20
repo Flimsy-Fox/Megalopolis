@@ -8010,11 +8010,6 @@ hash = "72b75c125aee339e96885264e722420b5741f5bedac10ca3fba210d71a3a3af4"
 metafile = true
 
 [[files]]
-file = "mods/revelation.pw.toml"
-hash = "77739435763701cb97c3b88701347fd3e60d10ba78434f7d71709cf562355fef"
-metafile = true
-
-[[files]]
 file = "mods/rhino.pw.toml"
 hash = "e55ca32b338a0e0540f4fec5170675d860566255ae0f45692a00cb4ebf2eb535"
 metafile = true
@@ -8267,4 +8262,9 @@ metafile = true
 [[files]]
 file = "resourcepacks/voxel-trains-ir.pw.toml"
 hash = "f0de2e766168c4238afe8da466dedfa84344f492c2465610d6bb1cf57caca581"
+metafile = true
+
+[[files]]
+file = "shaderpacks/revelation.pw.toml"
+hash = "8ddfeac26c20cc0ae1f100db89502a83da735df07c1a513a5d2e47afb1d1f779"
 metafile = true

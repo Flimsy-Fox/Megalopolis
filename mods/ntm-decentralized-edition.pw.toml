@@ -1,0 +1,8 @@
+name = "ntm-decentralized-edition"
+filename = "ntm-de_neoforge-1.21.1-1.0.0-beta.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/SecretAgent12/NTM-Decentralized-Edition/releases/download/release/ntm-de_neoforge-1.21.1-1.0.0-beta.1.jar"
+hash-format = "sha256"
+hash = "6170186d34b78e8d41938fb082549ff7118283b8d0059d82c50e63ebe17d3d13"

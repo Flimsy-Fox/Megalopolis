@@ -70,11 +70,11 @@
 	#In-game day when dynamic spawn scaling starts.
 	# Default: 3
 	# Range: 0 ~ 5000
-	spawnScalingStartDay = 3
+	spawnScalingStartDay = 15
 	#Number of in-game days from scaling start day to reach max spawn probabilities.
 	# Default: 28
 	# Range: 1 ~ 5000
-	spawnScalingDaysToMax = 28
+	spawnScalingDaysToMax = 112
 
 	[gunnerGrowth.all]
 		#Use -1 to inherit the balanced default or the all-gunners override.
@@ -912,15 +912,15 @@
 	#Fixed patrol interval in days. Set to 0 to use random interval ticks.
 	# Default: 5
 	# Range: 0 ~ 30
-	intervalDays = 5
+	intervalDays = 0
 	#Minimum random patrol interval in ticks when intervalDays is 0.
 	# Default: 12000
 	# Range: > 1
-	randomIntervalMinTicks = 12000
+	randomIntervalMinTicks = 180000
 	#Maximum random patrol interval in ticks when intervalDays is 0.
 	# Default: 24000
 	# Range: > 1
-	randomIntervalMaxTicks = 24000
+	randomIntervalMaxTicks = 720000
 	#Minimum in-game days before patrols can naturally spawn.
 	# Default: 5
 	# Range: 0 ~ 100
@@ -940,15 +940,15 @@
 	#Fixed raid interval in days. Set to 0 to use random interval ticks.
 	# Default: 30
 	# Range: 0 ~ 100
-	intervalDays = 30
+	intervalDays = 0
 	#Minimum random raid interval in ticks when intervalDays is 0.
 	# Default: 12000
 	# Range: > 1
-	randomIntervalMinTicks = 12000
+	randomIntervalMinTicks = 90000
 	#Maximum random raid interval in ticks when intervalDays is 0.
 	# Default: 24000
 	# Range: > 1
-	randomIntervalMaxTicks = 24000
+	randomIntervalMaxTicks =360000
 	#Minimum in-game days before natural raids can spawn.
 	# Default: 15
 	# Range: 0 ~ 100
@@ -960,13 +960,13 @@
 
 [vehicle]
 	#If true, players can place vehicle assembling tables and assemble new vehicle containers.
-	enabled = true
+	enabled = false
 	#If true, gunner vehicles can naturally replace open-sky gunners and join faction raids.
 	enemyVehicleSpawningEnabled = true
 	#In-game day when enemy gunner vehicles can start spawning.
 	# Default: 80
 	# Range: 0 ~ 5000
-	enemyVehicleStartDay = 80
+	enemyVehicleStartDay = 1000
 	#Probability (0-1) that a newly created open-sky natural gunner converts into an enemy vehicle.
 	# Default: 0.05
 	# Range: 0.0 ~ 1.0

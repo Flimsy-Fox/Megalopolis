@@ -7335,6 +7335,11 @@ hash = "d71851407e388787d67281a0564f357bd6384316fa1e4c1984ac6c549acba68d"
 metafile = true
 
 [[files]]
+file = "mods/distant-horizons-seedgen.pw.toml"
+hash = "7b684fef82d0e9ef75e3b9daa46ec19b9ba94be8c462769b256089b345b88e81"
+metafile = true
+
+[[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "0c20fea3407ed0db85b4b171f1820a24987f2659946fadd30bae044205041b09"
 metafile = true
@@ -7897,11 +7902,6 @@ metafile = true
 [[files]]
 file = "mods/nrb.pw.toml"
 hash = "31504d0134a5afa54c6ed91da93e06f628806669a50261dae24e2c781c74278d"
-metafile = true
-
-[[files]]
-file = "mods/ntm-decentralized-edition.pw.toml"
-hash = "41ddf8d1b740736b4c7260e387dd6467f8671e86b0385d50c1d1d54d982a0d07"
 metafile = true
 
 [[files]]
